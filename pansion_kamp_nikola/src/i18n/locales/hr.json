@@ -174,7 +174,7 @@
                 "Klima uređaj",
                 "Hladnjak",
                 "Wi-Fi",
-                "stroj za pranje rublja",
+                "Stroj za pranje rublja",
                 "Stroj za pranje posuđa",
                 "Aparat za kavu",
                 "Dnevno čišćenje",
@@ -184,15 +184,153 @@
             "app3": {
             "title": "Apartman 3",
             "amenities": [
-
+                "Dnevna soba",
+                "Kuhinja",
+                "Privatna kupaonica",
+                "Spavaća soba sa bračnim krevetom",
+                "Pomoćni ležaj",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Hladnjak",
+                "Wi-Fi",
+                "Stroj za pranje rublja",
+                "Stroj za pranje posuđa",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
             ]
             },
             "app4": {
-            "title": "Apartman 4",
+            "title": "Apartman 106",
             "amenities": [
-
+                "Kuhinja",
+                "Dvije privatne kupaonice",
+                "Dvije spavaće sobe sa bračnim krevetom",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Hladnjak",
+                "Wi-Fi",
+                "Ventilator",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
             ]
+            },
+            "app5": {
+            "title": "Apartman 108",
+            "amenities": [
+                "Dnevna soba",
+                "Kuhinja",
+                "Privatna kupaonica",
+                "Spavaća soba sa bračnim krevetom",
+                "Dva pomoćna ležaja",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Ventilator",
+                "Hladnjak",
+                "Wi-Fi",
+                "Stroj za pranje rublja",
+                "Stroj za pranje posuđa",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "app6": {
+            "title": "Apartman 204",
+            "amenities": [
+                "Kuhinja",
+                "Privatna kupaonica",
+                "Spavaća soba sa bračnim krevetom",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Hladnjak",
+                "Wi-Fi",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "app7": {
+            "title": "Apartman 206",
+            "amenities": [
+                "Dnevna soba",
+                "Kuhinja",
+                "Dvije privatne kupaonice",
+                "Dvije spavaće sobe",
+                "Bračni krevet",
+                "Krevet za jednu osobu",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Ventilator",
+                "Hladnjak",
+                "Wi-Fi",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "app8": {
+                "title": "Apartman 301",
+                "amenities": [
+                    "Dnevna soba",
+                    "Kuhinja",
+                    "Privatna kupaonica",
+                    "Spavaća soba sa bračnim krevetom",
+                    "Pomoćni ležaj",
+                    "Balkon s pogledom na more",
+                    "TV",
+                    "Klima uređaj",
+                    "Hladnjak",
+                    "Wi-Fi",
+                    "Aparat za kavu",
+                    "Dnevno čišćenje",
+                    "Samoposlužna praonica rublja"
+                    ]
+            },
+            "app9": {
+                "title": "Apartman 304",
+                "amenities": [
+                    "Kuhinja",
+                    "Privatna kupaonica",
+                    "Spavaća soba sa bračnim krevetom",
+                    "Krevet za jednu osobu",
+                    "Balkon s pogledom na more",
+                    "TV",
+                    "Klima uređaj",
+                    "Hladnjak",
+                    "Wi-Fi",
+                    "Stroj za pranje posuđa",
+                    "Aparat za kavu",
+                    "Dnevno čišćenje",
+                    "Samoposlužna praonica rublja"
+                ]
+            },
+            "app10": {
+                "title": "Apartman 305",
+                "amenities": [
+                    "Kuhinja",
+                    "Dvije privatne kupaonice",
+                    "Dvije spavaće sobe",
+                    "Bračni krevet",
+                    "Dva kreveta za jednu osobu",
+                    "Balkon s pogledom na more",
+                    "TV",
+                    "Klima uređaj",
+                    "Ventilator",
+                    "Hladnjak",
+                    "Wi-Fi",
+                    "Aparat za kavu",
+                    "Dnevno čišćenje",
+                    "Samoposlužna praonica rublja"
+                ]
             }
         }
-        }
+
+    }
 }

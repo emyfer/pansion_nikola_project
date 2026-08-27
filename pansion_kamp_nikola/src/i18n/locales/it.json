@@ -90,13 +90,13 @@
             "button": "Scopri di più sul Parco Nazionale delle Kornati"
         }
     },
-        "apartments_page": {
-        "rooms_title": "Stanze",
-        "apartments_title": "Appartamenti",
-        "amenities": "Servizi:",
-        "rooms": {
-            "roomWithBalcony": {
-            "title": "Stanza con Balcone ",
+"apartments_page": {
+    "rooms_title": "Camere",
+    "apartments_title": "Appartamenti",
+    "amenities": "Include:",
+    "rooms": {
+        "roomWithBalcony": {
+            "title": "Camera con balcone",
             "amenities": [
                 "Camera da letto",
                 "Balcone con vista mare",
@@ -109,9 +109,9 @@
                 "Pulizia giornaliera",
                 "Lavanderia self-service"
             ]
-            },
-            "roomWithoutBalcony": {
-            "title": "Stanza senza Balcone",
+        },
+        "roomWithoutBalcony": {
+            "title": "Camera senza balcone",
             "amenities": [
                 "Una camera da letto",
                 "Ventilatore",
@@ -123,61 +123,198 @@
                 "Pulizia giornaliera",
                 "Lavanderia self-service"
             ]
-            }
+        }
+    },
+    "apartments": {
+        "app1": {
+            "title": "Appartamento 1",
+            "amenities": [
+                "Soggiorno",
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Letto aggiuntivo",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Lavatrice",
+                "Lavastoviglie",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
         },
-        "apartments": {
-            "app1": {
-            "title": "Apartman 1",
+        "app2": {
+            "title": "Appartamento 2",
             "amenities": [
                 "Soggiorno",
                 "Cucina",
                 "Bagno privato",
                 "Camera da letto con letto matrimoniale",
-                "Letto extra",
+                "Letto aggiuntivo",
                 "Balcone con vista mare",
                 "TV",
                 "Aria condizionata",
                 "Frigorifero",
                 "Wi-Fi",
                 "Lavatrice",
-                "Spülmaschine",
-                "Macchina per il caffè",
+                "Lavastoviglie",
+                "Macchina da caffè",
                 "Pulizia giornaliera",
                 "Lavanderia self-service"
             ]
-            },
-            "app2": {
-            "title": "Apartman 2",
+        },
+        "app3": {
+            "title": "Appartamento 3",
             "amenities": [
                 "Soggiorno",
                 "Cucina",
                 "Bagno privato",
                 "Camera da letto con letto matrimoniale",
-                "Letto extra",
+                "Letto aggiuntivo",
                 "Balcone con vista mare",
                 "TV",
                 "Aria condizionata",
                 "Frigorifero",
                 "Wi-Fi",
                 "Lavatrice",
-                "Spülmaschine",
-                "Macchina per il caffè",
+                "Lavastoviglie",
+                "Macchina da caffè",
                 "Pulizia giornaliera",
                 "Lavanderia self-service"
             ]
-            },
-            "app3": {
-            "title": "Apartman 3",
+        },
+        "app4": {
+            "title": "Appartamento 106",
             "amenities": [
-
+                "Cucina",
+                "Due bagni privati",
+                "Due camere da letto con letto matrimoniale",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Ventilatore",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
             ]
-            },
-            "app4": {
-            "title": "Apartman 4",
+        },
+        "app5": {
+            "title": "Appartamento 108",
             "amenities": [
-
+                "Soggiorno",
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Due letti aggiuntivi",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Ventilatore",
+                "Frigorifero",
+                "Wi-Fi",
+                "Lavatrice",
+                "Lavastoviglie",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
             ]
-            }
+        },
+        "app6": {
+            "title": "Appartamento 204",
+            "amenities": [
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+        },
+        "app7": {
+            "title": "Appartamento 206",
+            "amenities": [
+                "Soggiorno",
+                "Cucina",
+                "Due bagni privati",
+                "Due camere da letto",
+                "Letto matrimoniale",
+                "Letto singolo",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Ventilatore",
+                "Frigorifero",
+                "Wi-Fi",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+        },
+        "app8": {
+            "title": "Appartamento 301",
+            "amenities": [
+                "Soggiorno",
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Letto aggiuntivo",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+        },
+        "app9": {
+            "title": "Appartamento 304",
+            "amenities": [
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Letto singolo",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Lavastoviglie",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+        },
+        "app10": {
+            "title": "Appartamento 305",
+            "amenities": [
+                "Cucina",
+                "Due bagni privati",
+                "Due camere da letto",
+                "Letto matrimoniale",
+                "Due letti singoli",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Ventilatore",
+                "Frigorifero",
+                "Wi-Fi",
+                "Macchina da caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
         }
     }
+}
 }

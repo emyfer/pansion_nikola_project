@@ -107,44 +107,64 @@
             "button": "Learn More about NP Kornati"
         }
     },
-    "apartments_page": {
-        "rooms_title": "Rooms",
-        "apartments_title": "Apartments",
-        "amenities": "Amenities:",
-        "rooms": {
-            "roomWithBalcony": {
-            "title": "Room with Balcony ",
+"apartments_page": {
+    "rooms_title": "Rooms",
+    "apartments_title": "Apartments",
+    "amenities": "Includes:",
+    "rooms": {
+        "roomWithBalcony": {
+            "title": "Room with balcony",
             "amenities": [
                 "Bedroom",
                 "Balcony with sea view",
                 "Air conditioning",
                 "Private bathroom",
                 "TV",
-                "Refrigerator",
+                "Fridge",
                 "Wi-Fi",
                 "Kettle",
                 "Daily cleaning",
                 "Self-service laundry"
             ]
-            },
-            "roomWithoutBalcony": {
-            "title": "Room without Balcony",
+        },
+        "roomWithoutBalcony": {
+            "title": "Room without balcony",
             "amenities": [
                 "One bedroom",
-                "Ventilator",
+                "Fan",
                 "Private bathroom",
                 "TV",
-                "Refrigerator",
+                "Fridge",
                 "Wi-Fi",
                 "Kettle",
                 "Daily cleaning",
                 "Self-service laundry"
             ]
-            }
+        }
+    },
+    "apartments": {
+        "app1": {
+            "title": "Apartment 1",
+            "amenities": [
+                "Living room",
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Extra bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fridge",
+                "Wi-Fi",
+                "Washing machine",
+                "Dishwasher",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
         },
-        "apartments": {
-            "app1": {
-            "title": "Apartman 1",
+        "app2": {
+            "title": "Apartment 2",
             "amenities": [
                 "Living room",
                 "Kitchen",
@@ -154,17 +174,17 @@
                 "Balcony with sea view",
                 "TV",
                 "Air conditioning",
-                "Refrigerator",
+                "Fridge",
                 "Wi-Fi",
                 "Washing machine",
                 "Dishwasher",
-                "Coffee maker",
+                "Coffee machine",
                 "Daily cleaning",
                 "Self-service laundry"
             ]
-            },
-            "app2": {
-            "title": "Apartman 2",
+        },
+        "app3": {
+            "title": "Apartment 3",
             "amenities": [
                 "Living room",
                 "Kitchen",
@@ -174,28 +194,144 @@
                 "Balcony with sea view",
                 "TV",
                 "Air conditioning",
-                "Refrigerator",
+                "Fridge",
                 "Wi-Fi",
                 "Washing machine",
                 "Dishwasher",
-                "Coffee maker",
+                "Coffee machine",
                 "Daily cleaning",
                 "Self-service laundry"
             ]
-            },
-            "app3": {
-            "title": "Apartman 3",
+        },
+        "app4": {
+            "title": "Apartment 106",
             "amenities": [
-
+                "Kitchen",
+                "Two private bathrooms",
+                "Two bedrooms with double bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fridge",
+                "Wi-Fi",
+                "Fan",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
             ]
-            },
-            "app4": {
-            "title": "Apartman 4",
+        },
+        "app5": {
+            "title": "Apartment 108",
             "amenities": [
-
+                "Living room",
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Two extra beds",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fan",
+                "Fridge",
+                "Wi-Fi",
+                "Washing machine",
+                "Dishwasher",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
             ]
-            }
+        },
+        "app6": {
+            "title": "Apartment 204",
+            "amenities": [
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fridge",
+                "Wi-Fi",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+        },
+        "app7": {
+            "title": "Apartment 206",
+            "amenities": [
+                "Living room",
+                "Kitchen",
+                "Two private bathrooms",
+                "Two bedrooms",
+                "Double bed",
+                "Single bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fan",
+                "Fridge",
+                "Wi-Fi",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+        },
+        "app8": {
+            "title": "Apartment 301",
+            "amenities": [
+                "Living room",
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Extra bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fridge",
+                "Wi-Fi",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+        },
+        "app9": {
+            "title": "Apartment 304",
+            "amenities": [
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Single bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fridge",
+                "Wi-Fi",
+                "Dishwasher",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+        },
+        "app10": {
+            "title": "Apartment 305",
+            "amenities": [
+                "Kitchen",
+                "Two private bathrooms",
+                "Two bedrooms",
+                "Double bed",
+                "Two single beds",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Fan",
+                "Fridge",
+                "Wi-Fi",
+                "Coffee machine",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
         }
     }
-    
+}
 }

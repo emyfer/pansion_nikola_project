@@ -105,94 +105,231 @@
             "button": "Mehr über NP Kornati erfahren"
         }
     },
-        "apartments_page": {
-        "rooms_title": "Zimmer",
-        "apartments_title": "Apartments",
-        "amenities": "Ausstattung:",
-        "rooms": {
-            "roomWithBalcony": {
+"apartments_page": {
+    "rooms_title": "Zimmer",
+    "apartments_title": "Apartments",
+    "amenities": "Ausstattung:",
+    "rooms": {
+        "roomWithBalcony": {
             "title": "Zimmer mit Balkon",
             "amenities": [
                 "Schlafzimmer",
-                "Balkon mit Meeresblick",
+                "Balkon mit Meerblick",
                 "Klimaanlage",
-                "Privates Badezimmer",
-                "TV",
-                "Kühlschrank",
-                "Wi-Fi",
-                "Tägliche Reinigung",
-                "Selbstbedienungs-Waschsalon",
-                "Wasserkocher"
-            ]
-            },
-            "roomWithoutBalcony": {
-            "title": "Zimmer ohne Balkon",
-            "amenities": [
-                "Eineschlafzimmer",
-                "Ventilator",
-                "Privates Badezimmer",
+                "Eigenes Badezimmer",
                 "TV",
                 "Kühlschrank",
                 "Wi-Fi",
                 "Wasserkocher",
                 "Tägliche Reinigung",
-                "Selbstbedienungs-Waschsalon"
+                "Selbstbedienungswaschküche"
             ]
-            }
         },
-        "apartments": {
-            "app1": {
-            "title": "Apartman 1",
+        "roomWithoutBalcony": {
+            "title": "Zimmer ohne Balkon",
+            "amenities": [
+                "Ein Schlafzimmer",
+                "Ventilator",
+                "Eigenes Badezimmer",
+                "TV",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Wasserkocher",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        }
+    },
+    "apartments": {
+        "app1": {
+            "title": "Apartment 1",
             "amenities": [
                 "Wohnzimmer",
                 "Küche",
-                "Privates Badezimmer",
+                "Eigenes Badezimmer",
                 "Schlafzimmer mit Doppelbett",
-                "Extra-Bett",
-                "Balkon mit Meeresblick",
+                "Zustellbett",
+                "Balkon mit Meerblick",
                 "TV",
                 "Klimaanlage",
                 "Kühlschrank",
                 "Wi-Fi",
-                "Wäschmaschine",
-                "Spülmaschine",
-                "Kaffeevollautomat",
+                "Waschmaschine",
+                "Geschirrspüler",
+                "Kaffeemaschine",
                 "Tägliche Reinigung",
-                "Selbstbedienungs-Waschsalon"
+                "Selbstbedienungswaschküche"
             ]
-            },
-            "app2": {
-            "title": "Apartman 2",
+        },
+        "app2": {
+            "title": "Apartment 2",
             "amenities": [
                 "Wohnzimmer",
                 "Küche",
-                "Privates Badezimmer",
+                "Eigenes Badezimmer",
                 "Schlafzimmer mit Doppelbett",
-                "Extra-Bett",
-                "Balkon mit Meeresblick",
+                "Zustellbett",
+                "Balkon mit Meerblick",
                 "TV",
                 "Klimaanlage",
                 "Kühlschrank",
                 "Wi-Fi",
-                "Wäschmaschine",
-                "Spülmaschine",
-                "Kaffeevollautomat",
+                "Waschmaschine",
+                "Geschirrspüler",
+                "Kaffeemaschine",
                 "Tägliche Reinigung",
-                "Selbstbedienungs-Waschsalon"
+                "Selbstbedienungswaschküche"
             ]
-            },
-            "app3": {
-            "title": "Apartman 3",
+        },
+        "app3": {
+            "title": "Apartment 3",
             "amenities": [
-
+                "Wohnzimmer",
+                "Küche",
+                "Eigenes Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Zustellbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Waschmaschine",
+                "Geschirrspüler",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
             ]
-            },
-            "app4": {
-            "title": "Apartman 4",
+        },
+        "app4": {
+            "title": "Apartment 106",
             "amenities": [
-
+                "Küche",
+                "Zwei eigene Badezimmer",
+                "Zwei Schlafzimmer mit Doppelbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Ventilator",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
             ]
-            }
+        },
+        "app5": {
+            "title": "Apartment 108",
+            "amenities": [
+                "Wohnzimmer",
+                "Küche",
+                "Eigenes Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Zwei Zustellbetten",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Ventilator",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Waschmaschine",
+                "Geschirrspüler",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        },
+        "app6": {
+            "title": "Apartment 204",
+            "amenities": [
+                "Küche",
+                "Eigenes Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        },
+        "app7": {
+            "title": "Apartment 206",
+            "amenities": [
+                "Wohnzimmer",
+                "Küche",
+                "Zwei eigene Badezimmer",
+                "Zwei Schlafzimmer",
+                "Doppelbett",
+                "Einzelbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Ventilator",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        },
+        "app8": {
+            "title": "Apartment 301",
+            "amenities": [
+                "Wohnzimmer",
+                "Küche",
+                "Eigenes Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Zustellbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        },
+        "app9": {
+            "title": "Apartment 304",
+            "amenities": [
+                "Küche",
+                "Eigenes Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Einzelbett",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Geschirrspüler",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
+        },
+        "app10": {
+            "title": "Apartment 305",
+            "amenities": [
+                "Küche",
+                "Zwei eigene Badezimmer",
+                "Zwei Schlafzimmer",
+                "Doppelbett",
+                "Zwei Einzelbetten",
+                "Balkon mit Meerblick",
+                "TV",
+                "Klimaanlage",
+                "Ventilator",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Kaffeemaschine",
+                "Tägliche Reinigung",
+                "Selbstbedienungswaschküche"
+            ]
         }
     }
+}
 }

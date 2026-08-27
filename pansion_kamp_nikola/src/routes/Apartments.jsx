@@ -59,17 +59,101 @@ const apartments = [
     id: 'app3',
     key: 'app3',
     images: [
-      '/apartments/app3/photo_1.jpg',
-      '/apartments/app3/photo_2.jpg',
-      '/apartments/app3/photo_3.jpg',
-      '/apartments/app3/photo_4.jpg',
+      './rooms/app3/image1.webp',
+      './rooms/app3/image2.webp',
+      './rooms/app3/image3.webp',
+      './rooms/app3/image4.webp',
+      './rooms/app3/image5.webp',
     ],
   },
   {
     id: 'app4',
     key: 'app4',
     images: [
-      '/apartments/app4/photo_1.jpg',
+      './rooms/app106/image1.webp',
+      './rooms/app106/image2.webp',
+      './rooms/app106/image3.webp',
+      './rooms/app106/image4.webp',
+      './rooms/app106/image5.webp',
+      './rooms/app106/image6.webp',
+      './rooms/app106/image7.webp',
+    ],
+  },
+  {
+    id: 'app5',
+    key: 'app5',
+    images: [
+      './rooms/app106/image1.webp',
+      './rooms/app106/image2.webp',
+      './rooms/app106/image3.webp',
+      './rooms/app106/image4.webp',
+      './rooms/app106/image5.webp',
+      './rooms/app106/image6.webp',
+      './rooms/app106/image7.webp',
+    ],
+  },
+  {
+    id: 'app6',
+    key: 'app6',
+    images: [
+      './rooms/app204/image1.webp',
+      './rooms/app204/image2.webp',
+      './rooms/app204/image3.webp',
+      './rooms/app204/image4.webp',
+      './rooms/app204/image5.webp',
+      './rooms/app204/image6.webp'
+      
+    ],
+  },
+  {
+    id: 'app7',
+    key: 'app7',
+    images: [
+      './rooms/app206/image1.webp',
+      './rooms/app206/image2.webp',
+      './rooms/app206/image3.webp',
+      './rooms/app206/image4.webp',
+      './rooms/app206/image5.webp',
+      './rooms/app206/image6.webp',
+      './rooms/app206/image7.webp',
+      './rooms/app206/image8.webp',
+      './rooms/app206/image9.webp'
+    ],
+  },
+  {
+    id: 'app8',
+    key: 'app8',
+    images: [
+      './rooms/app301/image1.webp',
+      './rooms/app301/image2.webp',
+      './rooms/app301/image3.webp',
+      './rooms/app301/image4.webp',
+      './rooms/app301/image5.webp'
+    ],
+  },
+  {
+    id: 'app9',
+    key: 'app9',
+    images: [
+      './rooms/app304/image1.webp',
+      './rooms/app304/image2.webp',
+      './rooms/app304/image3.webp',
+      './rooms/app304/image4.webp',
+      './rooms/app304/image5.webp',
+
+    ],
+  },
+  {
+    id: 'app10',
+    key: 'app10',
+    images: [
+      './rooms/app305/image1.webp',
+      './rooms/app305/image2.webp',
+      './rooms/app305/image3.webp',
+      './rooms/app305/image4.webp',
+      './rooms/app305/image5.webp',
+      './rooms/app305/image6.webp',
+      './rooms/app305/image6.webp'
     ],
   },
 ];
