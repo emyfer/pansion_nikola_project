@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Crimson+Text:wght@400;600;700&family=Fauna+One&display=swap');
+
+:root {
+  --primary_text_color : #0C1F27;
+  --secondary_text_color : #3A464B;
+  --primary_color : #1E4B5E;
+  --secondary_color : #FCF6ED;
+  --third_color : #8E7258;
+  --bg : #FCF6ED;
+
+  --primary_font : 'Inter', sans-serif;
+  --secondary_font : 'Crimson Text', serif; 
+  --serif_font : 'Fauna One', serif;
+  --accent_font : 'Bonheur Royale', cursive; 
+
+
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0 0;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  box-sizing: border-box;
+}

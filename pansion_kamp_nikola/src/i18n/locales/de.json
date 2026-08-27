@@ -1,0 +1,198 @@
+{
+    "header": {
+        "title": "Pansion und Camp",
+        "nav": {
+        "pansion": "Pansion",
+        "camp": "Camp",
+        "discoverTisno": "Discover Tisno",
+        "dryMarina": "Dry Marina"
+        }
+    },
+    "footer": { 
+        "copyright": "Pansion und Camp Nikola. Alle Rechte vorbehalten.",
+        "phone": "Telefon"
+    },
+    "landing_page": {
+        "main_text1": "Komm als Gast.",
+        "main_text2": "Geh als Freund.",
+        "text": "Wir sind ein Familienbetrieb. Seit 60 Jahren begrüßen wir Gäste aus aller Welt in unserem Zuhause und in unseren Herzen. Kommen Sie und schließen Sie sich ihnen an und werden Sie Teil unserer Familie.",
+        "pansion": {
+            "title": "Pansion Nikola",
+            "text": "Erleben Sie Komfort und Gastfreundschaft im Pansion Nikola, wo jeder Aufenthalt unvergesslich ist.",
+            "button": "Mehr erfahren"
+        },
+        "camp": {
+            "title": "Camp Nikola",
+            "text": "Genießen Sie die Natur im Camp Nikola, einer perfekten Mischung aus Natur und Entspannung.",
+            "button": "Mehr erfahren"
+        },
+        "discover": {
+            "title": "Discover Tisno",
+            "text": "Entdecken Sie die Schönheit von Tisno mit unseren geführten Touren und intensiven Erlebnissen.",
+            "button": "Mehr erfahren"
+        }
+    },
+    "pansion_page": {
+        "text": "Erleben Sie Komfort und Gastfreundschaft im Pansion Nikola, wo jeder Aufenthalt unvergesslich ist.",
+        "see_apartments": "Verfügbare Apartments und Zimmer ansehen",
+        "information": "Generale Informatione",
+        "address": "Adresse:",
+        "phone": "Telefon:",
+        "mobile": "Handy:",
+        "mobile_alt": "Alternatives Handy:",
+        "email": "Email:",
+        "map_title": "Camp Nikola",
+        "grid": {
+            "title1": "Meerblick",
+            "text1": "Genießen Sie freien Zugang zum Meer und den Blick darauf zu jeder Zeit.",
+            "title2": "Bequemes Bett",
+            "text2": "Ihr Komfort hat für uns oberste Priorität.",
+            "title3": "Hausgemachtes Frühstück",
+            "text3": "Starten Sie Ihren Tag mit einem traditionellen dalmatinischen Frühstück.",
+            "title4": "Klimaanlage",
+            "text4": "Angenehme Kühle während Ihres gesamten Aufenthalts.",
+            "title5": "Trockenmarina",
+            "text5": "25 Liegeplätze für sichere Bootslagerung",
+            "title6": "Fahrradverleih",
+            "text6": "Erkunden Sie die Umgebung von Tisno auf zwei Rädern"
+        }
+    },
+    "camp_page": {
+        "text": "Genießen Sie die Natur im Camp Nikola, einer perfekten Mischung aus Natur und Entspannung.",
+        "see_camp": "Verfügbare Campingplätze ansehen",
+        "address": "Adresse:",
+        "phone": "Telefon:",
+        "mobile": "Handy:",
+        "mobile_alt": "Alternatives Handy:",
+        "email": "Email:",
+        "map_title": "Camp Nikola",
+        "grid": {
+
+            "title1": "Direkt am Strand",
+            "text1": "Der Campingplatz liegt direkt am Meer, nur wenige Schritte vom kristallklaren Wasser der Adria entfernt.",
+            "title2": "Moderne sanitäre Einrichtungen",
+            "text2": "Saubere Duschen und Toiletten stehen Ihnen rund um die Uhr zur Verfügung.",
+            "title3": "Schattenbereiche",
+            "text3": "Genießen Sie Ihren Aufenthalt im Schatten unserer gepflegten Bäume und Überdachungen.",
+            "title4": "Stromanschlüsse",
+            "text4": "Jeder Stellplatz verfügt über einen Stromanschluss für Ihren Komfort.",
+            "title5": "Haustiere willkommen",
+            "text5": "Ihr vierbeiniger Freund ist im Camp Nikola immer willkommen.",
+            "title6": "Familiäre Atmosphäre",
+            "text6": "Kleine Gruppen, persönliche Aufmerksamkeit, Gäste, die seit Jahren zurückkehren."
+        }
+    },
+    "discover_page": {
+        "text": "",
+        "sibenik": {
+            "title": "Šibenik",
+            "text": "Šibenik, die älteste selbstverwaltete kroatische Stadt an der Adria, liegt in der am besten geschützten natürlichen Bucht, im zentralen Teil der Ostküste der Adria, an der Mündung des Flusses Krka, wahrscheinlich an dem Ort, an dem einige der ersten angesiedelten Kroaten das Meer zum ersten Mal sahen.",
+            "button": "Mehr erfahren"
+        },
+        "zadar": {
+            "title": "Zadar",
+            "text": "Die Geschichte von Zadar reicht dreitausend Jahre zurück, als es als Siedlung erwähnt wurde, während das urbanisierte Gebiet seit zweitausend Jahren existiert. Seitdem ist Zadar eine der wichtigsten Städte an der östlichen Adria und ein unverzichtbares Ziel für Abenteurer, Dichter und Schriftsteller. Seine Straßen, Plätze, Uferpromenaden, Kirchen und das monumentale Erbe zeigen diese Altertümlichkeit an jeder Ecke, während moderne Installationen eine Vision des zeitgenössischen Lebens und eine Inspiration für neue Reisende sind. Vor dreitausend Jahren wurden die Grundlagen gelegt, und das Abenteuer hatte bereits begonnen.",
+            "button": "Mehr über Zadar erfahren"
+        },
+        "krka": {
+            "title": "Nationalpark Krka",
+            "text": "Der Nationalpark ist ein weites, überwiegend unverändertes Gebiet von außergewöhnlichen und vielfältigen natürlichen Werten und umfasst ein oder mehrere erhaltene oder geringfügig veränderte Ökosysteme. Seine Hauptaufgabe ist wissenschaftlich, kulturell, pädagogisch und erholsam, und aufgrund der Besucher gibt es auch touristische Aktivitäten. Mit dem untergetauchten Teil der Mündung ist die Krka etwa 72,5 km lang und nach Länge der 22. Fluss in Kroatien. Sie entspringt am Fuße des Dinara-Gebirges, 3,5 km nordöstlich von Knin. Mit sieben Kalksinterfällen und einem Gesamtabfall von 224 m ist die Krka ein natürliches und karstiges Phänomen. Die Kalksinterfälle des Flusses Krka sind das grundlegende Phänomen dieses Flusses.",
+            "button": "Mehr über NP Krka erfahren"
+        },
+        "kornati": {
+            "title": "Nationalpark Kornati",
+            "text": "Der Nationalpark Kornati ist ein Archipel von 89 Inseln, Riffen und Klippen, die sich über eine Fläche von 220 km² erstrecken. Er ist bekannt für seine atemberaubende Landschaft, kristallklares Wasser und reiche Meeresfauna. Der Park bietet zahlreiche Möglichkeiten zum Segeln, Tauchen und Erkunden der unberührten Natur.",
+            "button": "Mehr über NP Kornati erfahren"
+        }
+    },
+        "apartments_page": {
+        "rooms_title": "Zimmer",
+        "apartments_title": "Apartments",
+        "amenities": "Ausstattung:",
+        "rooms": {
+            "roomWithBalcony": {
+            "title": "Zimmer mit Balkon",
+            "amenities": [
+                "Schlafzimmer",
+                "Balkon mit Meeresblick",
+                "Klimaanlage",
+                "Privates Badezimmer",
+                "TV",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Tägliche Reinigung",
+                "Selbstbedienungs-Waschsalon",
+                "Wasserkocher"
+            ]
+            },
+            "roomWithoutBalcony": {
+            "title": "Zimmer ohne Balkon",
+            "amenities": [
+                "Eineschlafzimmer",
+                "Ventilator",
+                "Privates Badezimmer",
+                "TV",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Wasserkocher",
+                "Tägliche Reinigung",
+                "Selbstbedienungs-Waschsalon"
+            ]
+            }
+        },
+        "apartments": {
+            "app1": {
+            "title": "Apartman 1",
+            "amenities": [
+                "Wohnzimmer",
+                "Küche",
+                "Privates Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Extra-Bett",
+                "Balkon mit Meeresblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Wäschmaschine",
+                "Spülmaschine",
+                "Kaffeevollautomat",
+                "Tägliche Reinigung",
+                "Selbstbedienungs-Waschsalon"
+            ]
+            },
+            "app2": {
+            "title": "Apartman 2",
+            "amenities": [
+                "Wohnzimmer",
+                "Küche",
+                "Privates Badezimmer",
+                "Schlafzimmer mit Doppelbett",
+                "Extra-Bett",
+                "Balkon mit Meeresblick",
+                "TV",
+                "Klimaanlage",
+                "Kühlschrank",
+                "Wi-Fi",
+                "Wäschmaschine",
+                "Spülmaschine",
+                "Kaffeevollautomat",
+                "Tägliche Reinigung",
+                "Selbstbedienungs-Waschsalon"
+            ]
+            },
+            "app3": {
+            "title": "Apartman 3",
+            "amenities": [
+
+            ]
+            },
+            "app4": {
+            "title": "Apartman 4",
+            "amenities": [
+
+            ]
+            }
+        }
+    }
+}

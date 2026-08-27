@@ -1,0 +1,183 @@
+{
+    "header": {
+        "title": "Pansion e Camp",
+        "nav": {
+        "pansion": "Pansion",
+        "camp": "Camp",
+        "discoverTisno": "Discover Tisno",
+        "dryMarina": "Dry Marina"
+        }
+    },
+    "footer": {
+        "copyright": "Pansion e Camp Nikola. Tutti i diritti riservati.",
+        "phone": "Telefono"
+    },
+    "landing_page": {
+        "main_text1": "Vieni come ospite.",
+        "main_text2": "Vai via come amico.",
+        "text": "Siamo un'attività a conduzione familiare. Da 60 anni accogliamo ospiti da tutto il mondo nella nostra casa e nei nostri cuori. Vieni a unirti a loro e diventa parte della nostra famiglia.",
+        "pansion": {
+            "title": "Pansion Nikola",
+            "text": "Vivi il comfort e l'ospitalità al Pansion Nikola, dove ogni soggiorno è indimenticabile.",
+            "button": "Scopri di più"
+        },
+        "camp": {
+            "title": "Camp Nikola",
+            "text": "Goditi la natura al Camp Nikola, un perfetto mix di natura incontaminata e relax.",
+            "button": "Scopri di più"
+        },
+        "discover": {
+            "title": "Discover Tisno",
+            "text": "Esplora la bellezza di Tisno con i nostri tour guidati ed esperienze immersive.",
+            "button": "Scopri di più"
+        }
+    },
+    "pansion_page": {
+        "text": "Vivi il comfort e l'ospitalità al Pansion Nikola, dove ogni soggiorno è indimenticabile.",
+        "see_apartments": "Visualizza appartamenti e camere disponibili",
+        "email": "Email:",
+        "info": "Generali informazione",
+        "phone": "Telefono:",
+        "mobile": "Cellulare:",
+        "mobile_alt": "Cellulare alternativo:", 
+        "map_title": "Camp Nikola",
+        "gallery": "Galleria",
+        "grid": {
+            "title1": "Vista mare",
+            "text1": "Goditi un accesso in prima fila al mare e ammirarlo in ogni momento.",
+            "title2": "Letto comodo",
+            "text2": "Il vostro comfort è la nostra priorità assoluta.",
+            "title3": "Colazione fatta in casa",
+            "text3": "Inizia la giornata con una tradizionale colazione dalmata.",
+            "title4": "Aria condizionata",
+            "text4": "Rimani fresco e comodo per tutta la durata del soggiorno.",
+            "title5": "Marina a secco",
+            "text5": "25 posti barca per un rimessaggio sicuro",
+            "title6": "Noleggio biciclette",
+            "text6": "Esplora i dintorni di Tisno su due ruote"
+        }
+    },
+    "camp_page": {
+        "text": "Goditi la natura al Camp Nikola, un perfetto mix di natura incontaminata e relax.",
+        "see_camp": "Visualizza campeggi disponibili",
+        "email": "Email:",
+        "phone": "Telefono:",
+        "mobile": "Cellulare:",
+        "mobile_alt": "Cellulare alternativo:", 
+        "map_title": "Camp Nikola",
+        "gallery": "Galleria"
+    },
+    "discover_page": {
+        "text": "",
+        "sibenik": {
+            "title": "Šibenik",
+            "text": "Šibenik, la più antica città croata autonoma sull'Adriatico, si trova nel porto naturale più protetto, nella parte centrale della costa orientale del mare Adriatico, alla foce del fiume Krka, probabilmente nel luogo in cui alcuni dei primi croati insediati videro il mare per la prima volta.",
+            "button": "Scopri di più"
+        },
+        "zadar": {
+            "title": "Zadar",
+            "text": "La storia di Zadar risale a tremila anni fa, quando fu menzionata come insediamento, mentre l'area urbanizzata esiste da duemila anni. Da allora, Zadar è stata una delle città più importanti dell'Adriatico orientale e una destinazione essenziale per avventurieri, poeti e scrittori. Le sue strade, piazze, lungomare, chiese e patrimonio monumentale rivelano questa antichità ad ogni angolo, mentre le installazioni moderne sono una visione della vita contemporanea e un'ispirazione per i nuovi viaggiatori. Tremila anni fa furono gettate le fondamenta e l'avventura era già iniziata.",
+            "button": "Scopri di più su Zadar"
+        },
+        "krka": {
+            "title": "Parco Nazionale di Krka",
+            "text": "Il parco nazionale è un'area vasta, prevalentemente intatta, di valori naturali eccezionali e molteplici, e comprende uno o più ecosistemi conservati o leggermente modificati. La sua funzione principale è scientifica, culturale, educativa e ricreativa, e a causa dei visitatori esistono anche attività turistiche. Con la parte sommersa della foce, il fiume Krka è lungo circa 72,5 km ed è il 22° fiume più lungo della Croazia. Nasce ai piedi del monte Dinara, a 3,5 km a nord-est di Knin. Con sette cascate di travertino e un dislivello totale di 224 m, il Krka è un fenomeno naturale e carsico. Le cascate di travertino del fiume Krka sono il fenomeno fondamentale di questo fiume.",
+            "button": "Scopri di più sul Parco Nazionale di Krka"
+        },
+        "kornati": {
+            "title": "Parco Nazionale delle Kornati",
+            "text": "Il Parco Nazionale delle Kornati è un'area protetta situata nell'arcipelago delle Kornati, in Croazia. Questo parco è famoso per la sua bellezza naturale unica, con numerose isole, isolotti e scogliere che creano un paesaggio mozzafiato. Le Kornati sono caratterizzate da acque cristalline, baie nascoste e una ricca biodiversità marina, rendendole una destinazione ideale per gli amanti della natura e degli sport acquatici. Il parco offre anche opportunità per escursioni a piedi e in barca, permettendo ai visitatori di esplorare le sue meraviglie naturali e culturali.",
+            "button": "Scopri di più sul Parco Nazionale delle Kornati"
+        }
+    },
+        "apartments_page": {
+        "rooms_title": "Stanze",
+        "apartments_title": "Appartamenti",
+        "amenities": "Servizi:",
+        "rooms": {
+            "roomWithBalcony": {
+            "title": "Stanza con Balcone ",
+            "amenities": [
+                "Camera da letto",
+                "Balcone con vista mare",
+                "Aria condizionata",
+                "Bagno privato",
+                "TV",
+                "Frigorifero",
+                "Wi-Fi",
+                "Bollitore",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+            },
+            "roomWithoutBalcony": {
+            "title": "Stanza senza Balcone",
+            "amenities": [
+                "Una camera da letto",
+                "Ventilatore",
+                "Bagno privato",
+                "TV",
+                "Frigorifero",
+                "Wi-Fi",
+                "Bollitore",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+            }
+        },
+        "apartments": {
+            "app1": {
+            "title": "Apartman 1",
+            "amenities": [
+                "Soggiorno",
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Letto extra",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Lavatrice",
+                "Spülmaschine",
+                "Macchina per il caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+            },
+            "app2": {
+            "title": "Apartman 2",
+            "amenities": [
+                "Soggiorno",
+                "Cucina",
+                "Bagno privato",
+                "Camera da letto con letto matrimoniale",
+                "Letto extra",
+                "Balcone con vista mare",
+                "TV",
+                "Aria condizionata",
+                "Frigorifero",
+                "Wi-Fi",
+                "Lavatrice",
+                "Spülmaschine",
+                "Macchina per il caffè",
+                "Pulizia giornaliera",
+                "Lavanderia self-service"
+            ]
+            },
+            "app3": {
+            "title": "Apartman 3",
+            "amenities": [
+
+            ]
+            },
+            "app4": {
+            "title": "Apartman 4",
+            "amenities": [
+
+            ]
+            }
+        }
+    }
+}

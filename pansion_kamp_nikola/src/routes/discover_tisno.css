@@ -1,0 +1,103 @@
+.discover_page_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: clamp(16px, 4vw, 32px);
+}
+
+.discover_page_text_p {
+    font-family: var(--secondary_font);
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    color: var(--secondary_text_color);
+    margin-top: clamp(16px, 3vw, 32px);
+    margin-bottom: clamp(16px, 3vw, 32px);
+    width: 88%;
+    text-align: center;
+}
+
+.discover_page_part.is_visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.discover_page_part {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.discover_page_part img{
+    display: block;       /* uklanja inline razmak koji img ima po defaultu */
+    width: 50%;
+    height: auto;         /* umjesto 100% - pusti da se sama rastegne kroz align-self */
+    align-self: stretch;  /* eksplicitno prisili sliku da prati visinu susjeda */
+    object-fit: cover;
+}
+
+.discover_page_container{
+    display: flex;
+    background-color: var(--secondary_color);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    margin: 30px auto;
+    padding: clamp(16px, 3vw, 40px); 
+}
+
+button {
+    background-color: var(--third_color);
+    color: var(--secondary_color);
+    border: none;
+    padding: clamp(8px, 1.5vw, 12px) clamp(16px, 3vw, 24px);
+    margin-bottom: 16px;
+    font-size: clamp(14px, 1.8vw, 18px);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: var(--primary_font);
+    font-size: clamp(22px, 3.5vw, 32px);
+    color: var(--primary_color);
+    margin-bottom: 16px;
+}
+
+.discover_page_p {
+    font-family: var(--secondary_font);
+    font-size: clamp(15px, 2vw, 19px);
+    color: var(--secondary_text_color);
+    margin-bottom: 24px;
+    text-align: left;
+    width: 90%;
+}
+
+
+@media (max-width: 768px) {
+    .discover_page_part {
+        flex-direction: column;
+    }
+
+    #reverse {
+        flex-direction: column-reverse;
+    }
+
+    .discover_page_container {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .discover_page_part img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 16px;
+    }
+}

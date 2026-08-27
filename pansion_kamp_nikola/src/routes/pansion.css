@@ -1,0 +1,228 @@
+.pansion_text {
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    font-size: 24px;
+    padding: 32px;
+    margin: 0%;
+    font-family: var(--serif_font);
+}
+
+.pansion_photo_slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pansion_photo_slider_track {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 32px;
+}
+
+.pansion_photo_slider_track img {
+    flex: 0 0 calc(33.333% - 11px); 
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+}
+
+.pansion_photo_slider_track::-webkit-scrollbar {
+    display: none;
+}
+.pansion_photo_slider_track {
+    scrollbar-width: none;
+}
+
+.pansion_grid,
+.pansion_apartments,
+.pansion_contact {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.pansion_grid.is_visible,
+.pansion_apartments.is_visible,
+.pansion_contact.is_visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.pansion_grid {
+     position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(1rem, 3vw, 3.25rem);
+    padding: clamp(1.5rem, 4vw, 2rem);
+    overflow: hidden;
+}
+
+.pansion_grid_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.pansion_grid_card_white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 20px;
+    gap: 12px;
+    z-index: 1;
+
+    background-color: var(--secondary_color);
+    color: var(--primary_text_color);
+    border-radius: 16px;
+}
+
+.pansion_grid_card_blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 20px;
+    gap: 12px;
+    z-index: 1;
+
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border-radius: 16px;
+}
+
+.pansion_grid_card_icon {
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.pansion_grid_card_title {
+    font-family: var(--primary_font);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.pansion_grid_card_text {
+    font-family: var(--secondary_font);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.9;
+}
+
+
+
+.pansion_apartments_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.pansion_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.pansion_contact h2 {
+    width: 80%;
+    font-family: var(--primary_font);
+    text-align: left;
+}
+
+.pansion_contact_flex {
+    font-family: var(--secondary_font);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.pansion_contact_information {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0px;
+    color: var(--secondary_text_color);
+}
+
+@media (max-width: 768px) {
+    .pansion_contact_information {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.pansion_contact_information a {
+    text-decoration: none;
+    color: var(--secondary_text_color);
+    text-align: left;
+}
+
+.pansion_contact_map {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pansion_contact_map iframe {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .pansion_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding: 24px 16px;
+    }
+
+    .pansion_grid_card_white,
+    .pansion_grid_card_blue,
+    .pansion_grid_card {
+        height: 220px;
+    }
+}
+
+@media (max-width: 500px) {
+    .pansion_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .pansion_contact_flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pansion_contact_information,
+    .pansion_contact_map {
+        width: 100%;
+    }
+
+    .pansion_contact h2 {
+        width: 100%;
+    }
+}

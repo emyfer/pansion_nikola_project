@@ -1,0 +1,198 @@
+{
+    "header": {
+        "title": "Pansion i Kamp",
+        "nav": {
+        "pansion": "Pansion",
+        "camp": "Kamp",
+        "discoverTisno": "Upoznaj Tisno",
+        "dryMarina": "Suha Marina"
+        }
+    },
+
+    "footer": {
+        "copyright": "Pansion i Kamp Nikola. Sva prava pridržana.",
+        "phone": "Telefon"
+    },
+
+    "landing_page": {
+    "main_text1": "Dođi kao gost.",
+    "main_text2": "Otiđi kao prijatelj.",
+    "text": "Obiteljski smo posao već 60 godina i rado ugošćujemo goste iz cijelog svijeta u našem domu i srcu. Dođite i pridružite im se i postanite dio naše obitelji.",
+    "pansion": {
+        "title": "Pansion Nikola",
+        "text": "Doživite udobnost i gostoljubivost u Pansionu Nikola, gdje je svaki boravak nezaboravan.",
+        "button": "Saznaj više"
+    },
+    "camp": {
+        "title": "Camp Nikola",
+        "text": "Uživajte u prirodi u Campu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+        "button": "Saznaj više"
+
+    },
+    "discover": {
+        "title": "Discover Tisno",
+        "text": "Istražite ljepote Tisna kroz naše vođene ture i nezaboravna iskustva.",
+        "button": "Saznaj više"
+        }
+    },
+    "pansion_page": {
+        "text": "Doživite udobnost i gostoljubivost u Pansionu Nikola, gdje je svaki boravak nezaboravan.",
+        "see_apartments": "Pogledaj dostupne apartmane i sobe",
+        "gallery": "Galerija",
+        "info": "Osnovne informacije",
+        "email": "Email:",
+        "phone": "Telefon:",
+        "mobile": "Mobitel:",
+        "mobile_alt": "Alternativni mobitel:",
+        "map_title": "Camp Nikola",
+        "grid": {
+            "title1": "Pogled na more",
+            "text1": "Imajte pristup moru u prvom redu i pogled na more svaki trenutak.",
+            "title2": "Udoban krevet",
+            "text2": "Vaša udobnost nam je prvi prioritet.",
+            "title3": "Domaći doručak",
+            "text3": "Započnite dan s tradicionalnim dalmatinskim doručkom.",
+            "title4": "Klima uređaj",
+            "text4": "Ugodna svježina tijekom cijelog boravka.",
+            "title5": "Suha marina",
+            "text5": "25 vezova za sigurno skladištenje plovila",
+            "title6": "Posudba bicikala",
+            "text6": "Istražite okolicu Tisna na dva kotača"
+        }
+    },
+    "camp_page": {
+        "text": "Uživajte u prirodi u Campu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+        "see_camp": "Pogledaj kamp",
+        "gallery": "Galerija",
+        "email": "Email:",
+        "phone": "Telefon:",
+        "mobile": "Mobitel:",
+        "mobile_alt": "Alternativni mobitel:",
+        "map_title": "Camp Nikola",
+        "grid": {
+            "title1": "Uz samu plažu",
+            "text1": "Kamp se nalazi direktno na obali, more vam je na par koraka",
+            "title2": "Priroda",
+            "text2": "Okruženi netaknutom prirodom i zelenilom.",
+            "title3": "Moderni sanitarni čvorovi",
+            "text3": "Čisti tuševi i toaleti dostupni 24/7",
+            "title4": "Priključci za struju",
+            "text4": "Svaka parcela ima pristup električnoj energiji",
+            "title5": "Obiteljska atmosfera",
+            "text5": "Male grupe, osobna pažnja, gosti koji se vraćaju godinama."
+        }
+    },
+    "discover_page": {
+        "text": "Tisno je nastalo na mjestu na kojemu otok Murter gotovo dodiruje kopno pa je po uskom tjesnacu, širokom samo 40 metara, dobilo ime. Početkom 18. stoljeća sagrađen je most pa se Tisno počelo širiti i na kopno. Danas je Tisno administrativno središte općine, kojoj uz otočna mjesta Betinu i Jezera, pripadaju Dazlina i Ivinj te zaselak Dubrava u zaleđu. Područje Tisna obiluje kulturno-povijesnim spomenicima. Pored crkve sv. Martina u Ivinju, iz 11. stoljeća, pronađeni su zidovi rimske villae rusticae, bazilika i ranokršćanska krstionica. Na brdu Brošćica iznad Tisnog nalazi se crkva iz 18. stoljeća, svetište Gospe od Karavaja, danas okupljalište vjernika iz čitave Dalmacije. Uz bujno zelenilo, Tisno ima prostrane trgove i dugu rivu, kao stvorenu za šetnje i druženje. Okruženo je prekrasnim plažama i kilometrima šetnica, a zaleđe nudi pastoralne slike Dalmacije i nezaboravne okuse domaće hrane s obiteljskih gospodarstava.",
+        "sibenik": {
+            "title": "Šibenik",
+            "text": "Šibenik, najstariji samorodni hrvatski grad na Jadranu, nalazi se u najzaštićenijoj prirodnoj luci, posred istočne obale Jadranskog mora, prastarog mare Adriaticuma, na ušću rijeke Krke, vjerojatno na mjestu gdje su neki od prvih doseljenih Hrvata ugledali more.",
+            "button": "Saznaj više"
+        },
+        "zadar": {
+            "title": "Zadar",
+            "text": "Prošlost Zadra seže tri tisuće godina unazad kada se spominje kao naselje, dok je urbanizirana sredina već dvije tisuće godina. Od tada je Zadar jedan od najvažnijih gradova na istočnom Jadranu i nezaobilazna destinacija pustolova, pjesnika i pisaca. Njegove ulice, trgovi, riva, crkve i spomenička baština otkrivaju tu drevnost na svakom koraku, dok su moderne instalacije vizija suvremenosti i inspiracija za nove putnike. Prije tri tisuće godina postavljeni su temelji i avantura je tada već bila počela.",
+            "button": "Saznaj više o Zadru"
+        },
+        "krka": {
+            "title": "Nacionalni park Krka",
+            "text": "Nacionalni park je prostrano, pretežito neizmijenjeno područje iznimnih i višestrukih prirodnih vrijednosti, a obuhvaća jedan ili više sačuvanih ili neznatno izmijenjenih ekosustava. Namjena mu je prije svega znanstvena, kulturna, odgojno-obrazovna i rekreativna, a zbog posjetitelja postoje i turističke djelatnosti. S potopljenim dijelom ušća Krka je duga oko 72,5 km i po dužini je 22. rijeka u Hrvatskoj. Izvire u podnožju planine Dinare, 3,5 km sjeveroistočno od Knina. Sa sedam sedrenih slapova i ukupnim padom od 224 m, Krka je prirodni i krški fenomen. Sedreni slapovi rijeke Krke temeljni su fenomen ove rijeke.",
+            "button": "Saznaj više o NP Krka"
+        },
+        "kornati": {
+            "title": "Nacionalni park Kornati",
+            "text": "Nacionalni park Kornati veći je dio Kornatskog akvatorija, koji je 1980. godine, zbog izuzetnih krajobraznih ljepota, zanimljive geomorfologije, velike razvedenosti obalne crte i naročito bogatih biocenoza morskog ekosustava, proglašen nacionalnim parkom. Kornatski arhipelag, kao posebna i zasebna otočna skupina smještena na sutoku šibenskih i zadarskih otoka, rasprostire se na površini od oko 320 km2 i uključuje oko 150 kopnenih, stalno ili povremeno nadmorskih jedinica. Ovaj najrazvedeniji otočni ekosustav u Jadranskom moru, koji uključuje čak 12% svih otoka hrvatskog Jadrana (1264 otoka, od čega je 67 napučenih), a tek 1% ukupne hrvatske morske površine, odavno plijeni pozornost brojnih nautičara, ronilaca, planinara i drugih zaljubljenika u prirodu i ono što priroda nudi.",
+            "button": "Saznaj više o NP Kornati"
+        }
+    },
+    "apartments_page": {
+        "rooms_title": "Sobe",
+        "apartments_title": "Apartmani",
+        "amenities": "Sadržaj:",
+        "rooms": {
+            "roomWithBalcony": {
+            "title": "Soba s balkonom",
+            "amenities": [
+                "Spavaća soba",
+                "Balkon s pogledom na more",
+                "Klima uređaj",
+                "Privatna kupaonica",
+                "TV",
+                "Hladnjak",
+                "Wi-Fi",
+                "Kuhalo za vodu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "roomWithoutBalcony": {
+            "title": "Soba bez balkona",
+            "amenities": [
+                "Jedna spavaća soba",
+                "Ventilator",
+                "Privatna kupaonica",
+                "TV",
+                "Hladnjak",
+                "Wi-Fi",
+                "Kuhalo za vodu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            }
+        },
+        "apartments": {
+            "app1": {
+            "title": "Apartman 1",
+            "amenities": [
+                "Dnevna soba",
+                "Kuhinja",
+                "Privatna kupaonica",
+                "Spavaća soba sa bračnim krevetom",
+                "Pomoćni ležaj",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Hladnjak",
+                "Wi-Fi",
+                "stroj za pranje rublja",
+                "Stroj za pranje posuđa",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "app2": {
+            "title": "Apartman 2",
+            "amenities": [
+                "Dnevna soba",
+                "Kuhinja",
+                "Privatna kupaonica",
+                "Spavaća soba sa bračnim krevetom",
+                "Pomoćni ležaj",
+                "Balkon s pogledom na more",
+                "TV",
+                "Klima uređaj",
+                "Hladnjak",
+                "Wi-Fi",
+                "stroj za pranje rublja",
+                "Stroj za pranje posuđa",
+                "Aparat za kavu",
+                "Dnevno čišćenje",
+                "Samoposlužna praonica rublja"
+            ]
+            },
+            "app3": {
+            "title": "Apartman 3",
+            "amenities": [
+
+            ]
+            },
+            "app4": {
+            "title": "Apartman 4",
+            "amenities": [
+
+            ]
+            }
+        }
+        }
+}

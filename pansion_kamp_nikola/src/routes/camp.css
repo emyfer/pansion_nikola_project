@@ -1,0 +1,258 @@
+.camp_text {
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    font-size: clamp(20px, 3vw, 28px);
+    font-family: var(--secondary_font);
+    font-style: italic;
+    font-weight: 400;
+    padding: clamp(32px, 6vw, 56px) clamp(20px, 8vw, 120px);
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+}
+.camp_photo_slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.camp_photo_slider_track {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 32px;
+}
+
+.camp_photo_slider_track img {
+    flex: 0 0 calc(33.333% - 11px); 
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+}
+
+.camp_photo_slider_track::-webkit-scrollbar {
+    display: none;
+}
+.camp_photo_slider_track {
+    scrollbar-width: none;
+}
+
+.camp_grid, 
+.camp_contact,
+.capmp_gallery {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.camp_grid.is_visible,
+.camp_contact.is_visible,
+.camp_gallery {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.camp_grid {
+     position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(1rem, 3vw, 3.25rem);
+    padding: clamp(1.5rem, 4vw, 2rem);
+    overflow: hidden;
+}
+
+.camp_grid_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.camp_grid_card_white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 20px;
+    gap: 12px;
+    z-index: 1;
+
+    background-color: var(--secondary_color);
+    color: var(--primary_text_color);
+    border-radius: 16px;
+}
+
+.camp_grid_card_blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 20px;
+    gap: 12px;
+    z-index: 1;
+
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border-radius: 16px;
+}
+
+.camp_grid_card_icon {
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.camp_grid_card_title {
+    font-family: var(--primary_font);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.camp_grid_card_text {
+    font-family: var(--secondary_font);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.9;
+}
+
+.camp_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+}
+
+.camp_contact h2 {
+    width: 80%;
+    font-family: var(--primary_font);
+    text-align: left;
+}
+
+.camp_contact_flex {
+    font-family: var(--secondary_font);
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.camp_contact_information {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0px;
+    color: var(--secondary_text_color);
+}
+
+@media (max-width: 768px) {
+    .camp_contact_information {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.camp_contact_information a {
+    text-decoration: none;
+    color: var(--secondary_text_color);
+}
+
+.camp_contact_map {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.camp_contact_map iframe {
+    display: block;
+}
+
+.camp_gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.camp_gallery_title {
+    color: var(--primary_color);
+    font-size: 24px;
+    font-family: var(--primary_font);
+    text-align: left;
+    width: 80%;
+}
+
+.camp_gallery_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    width: 80%;
+}
+
+.camp_gallery_grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .camp_gallery_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .camp_grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding: 24px 16px;
+    }
+
+    .camp_grid_card_white,
+    .camp_grid_card_blue,
+    .camp_grid_card {
+        height: 220px;
+    }
+}
+
+@media (max-width: 500px) {
+    .camp_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .camp_contact_flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .camp_contact_information,
+    .camp_contact_map {
+        width: 100%;
+    }
+
+    .camp_contact h2 {
+        width: 100%;
+    }
+}

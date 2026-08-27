@@ -1,0 +1,201 @@
+{
+    "header": {
+        "title": "Pansion and Camp",
+        "nav": {
+            "pansion": "Pansion",
+            "camp": "Camp",
+            "discoverTisno": "Discover Tisno",
+            "dryMarina": "Dry Marina"
+        }
+    },
+    "footer": {
+        "copyright": "Pansion and Camp Nikola. All rights reserved.",
+        "phone": "Phone"
+    },
+    "landing_page": {
+        "main_text1": "Come as a guest.",
+        "main_text2": "Leave as our friend.",
+        "text": "We are a family run business. For last 60 years we have welcomed guests from all over the world in our home and our hearts. Come join them and become a part of our family.",
+        "pansion": {
+            "title": "Pansion Nikola",
+            "text": "Experience comfort and hospitality at Pansion Nikola, where every stay is a memorable one.",
+            "button": "Learn More"
+        },
+        "camp": {
+            "title": "Camp Nikola",
+            "text": "Enjoy the great outdoors at Camp Nikola, offering a perfect blend of nature and relaxation.",
+            "button": "Learn More"
+        },
+        "discover": {
+            "title": "Discover Tisno",
+            "text": "Explore the beauty of Tisno with our guided tours and immersive experiences.",
+            "button": "Learn More"
+        }
+    },
+    "pansion_page": {
+        "text": "Experience comfort and hospitality at Pansion Nikola, where every stay is a memorable one.",
+        "see_apartments": "See available apartments and rooms",
+        "address": "Address:",
+        "info": "General information",
+        "phone": "Phone:",
+        "mobile": "Mobile:",
+        "mobile_alt": "Alternative Mobile:",
+        "email": "Email:",
+        "map_title": "Camp Nikola",
+        "gallery": "Gallery",
+        "grid": {
+            "title1": "Sea view",
+            "text1": "Have a front row access to sea and have a look every moment.",
+            "title2": "Comfortable bed",
+            "text2": "Your comfort is our first priority.",
+            "title3": "Homemade Breakfast",
+            "text3": "Start your day with a traditional Dalmatian breakfast.",
+            "title4": "Air Conditioning",
+            "text4": "Stay cool and comfortable throughout your stay.",
+            "title5": "Suha marina",
+            "text5": "25 vezova za sigurno skladištenje plovila",
+            "title6": "Posudba bicikala",
+            "text6": "Istražite okolicu Tisna na dva kotača"
+        }
+    },
+    "camp_page": {
+        "text": "Enjoy the great outdoors at Camp Nikola, offering a perfect blend of nature and relaxation.",
+
+        "address": "Address:",
+        "phone": "Phone:",
+        "mobile": "Mobile:",
+        "mobile_alt": "Alternative Mobile:",
+        "email": "Email:",
+        "map_title": "Camp Nikola",
+        "gallery": "Gallery",
+        "grid": {
+            "title1": "By the beach",
+            "text1": "Located right by the beach, offering easy access to the crystal-clear waters of the Adriatic Sea.",
+            "title2": "Modern sanitary facilities",
+            "text2": "Clean showers and toilets available 24/7.",
+            "title3": "Shaded areas",
+            "text3": "Enjoy your stay in the shade with our well-maintained trees and canopies.",
+            "title4": "Electricity connections",
+            "text4": "Each pitch has access to electricity for your convenience.",
+            "title5": "Pets welcome",
+            "text5": "Your four-legged friend is always welcome at Camp Nikola.",
+            "title6": "Family atmosphere",
+            "text6": "Small groups, personal attention, and guests returning year after year."
+        }
+        
+    },
+    "discover_page": {
+        "text": "Tisno is located at the point where the island of Murter almost touches the mainland, and it got its name from the narrow strait, which is only 40 meters wide. In the early 18th century, a bridge was built, and Tisno began to expand onto the mainland. Today, Tisno is the administrative center of the municipality, which includes the island towns of Betina and Jezera, as well as Dazlina and Ivinj and the hamlet of Dubrava inland. The area of Tisno is rich in cultural and historical monuments. In addition to the Church of St. Martin in Ivinj, dating back to the 11th century, walls of a Roman villa rustica, a basilica, and an early Christian baptistery have been found. On Brošćica hill above Tisno stands an 18th-century church, the sanctuary of Our Lady of Karavaja, which today serves as a gathering place for believers from all over Dalmatia. Surrounded by lush greenery, Tisno has spacious squares and a long waterfront, perfect for strolling and socializing. It is surrounded by beautiful beaches and kilometers of walking paths, while the hinterland offers pastoral scenes of Dalmatia and unforgettable tastes of homemade food from family farms.",
+        "sibenik": {
+            "title": "Šibenik",
+            "text": "Šibenik, the oldest self-governing Croatian city on the Adriatic, is located in the most protected natural harbor, in the central part of the Adriatic Sea's eastern coast, at the mouth of the Krka River, likely at the place where some of the first settled Croats first saw the sea.",
+            "button": "Learn More"
+        },
+        "zadar": {
+            "title": "Zadar",
+            "text": "The history of Zadar dates back three thousand years when it was mentioned as a settlement, while the urbanized area has existed for two thousand years. Since then, Zadar has been one of the most important cities on the eastern Adriatic and an essential destination for adventurers, poets, and writers. Its streets, squares, waterfront, churches, and monumental heritage reveal this ancientness at every turn, while modern installations are a vision of contemporary life and an inspiration for new travelers. Three thousand years ago, the foundations were laid, and the adventure had already begun.",
+            "button": "Learn More about Zadar"
+        },
+        "krka": {
+            "title": "Krka National Park",
+            "text": "The National Park is a vast, predominantly unaltered area of exceptional and multiple natural values, encompassing one or more preserved or slightly altered ecosystems. Its purpose is primarily scientific, cultural, educational, and recreational, and due to visitors, there are also tourist activities. With its submerged part at the mouth, the Krka River is about 72.5 km long and is the 22nd longest river in Croatia. It springs from the foot of the Dinara mountain, 3.5 km northeast of Knin. With seven travertine waterfalls and a total drop of 224 m, Krka is a natural and karst phenomenon. The travertine waterfalls of the Krka River are a fundamental phenomenon of this river.",
+            "button": "Learn More about NP Krka"
+        },
+        "kornati": {
+            "title": "Kornati National Park",
+            "text": "The Kornati National Park is a unique archipelago consisting of 89 islands, islets, and reefs, located in the central part of the Adriatic Sea. It is known for its stunning natural beauty, crystal-clear waters, and rich biodiversity. The park offers a variety of activities for visitors, including sailing, diving, and exploring the islands' historical and cultural heritage.",
+            "button": "Learn More about NP Kornati"
+        }
+    },
+    "apartments_page": {
+        "rooms_title": "Rooms",
+        "apartments_title": "Apartments",
+        "amenities": "Amenities:",
+        "rooms": {
+            "roomWithBalcony": {
+            "title": "Room with Balcony ",
+            "amenities": [
+                "Bedroom",
+                "Balcony with sea view",
+                "Air conditioning",
+                "Private bathroom",
+                "TV",
+                "Refrigerator",
+                "Wi-Fi",
+                "Kettle",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+            },
+            "roomWithoutBalcony": {
+            "title": "Room without Balcony",
+            "amenities": [
+                "One bedroom",
+                "Ventilator",
+                "Private bathroom",
+                "TV",
+                "Refrigerator",
+                "Wi-Fi",
+                "Kettle",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+            }
+        },
+        "apartments": {
+            "app1": {
+            "title": "Apartman 1",
+            "amenities": [
+                "Living room",
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Extra bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Refrigerator",
+                "Wi-Fi",
+                "Washing machine",
+                "Dishwasher",
+                "Coffee maker",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+            },
+            "app2": {
+            "title": "Apartman 2",
+            "amenities": [
+                "Living room",
+                "Kitchen",
+                "Private bathroom",
+                "Bedroom with double bed",
+                "Extra bed",
+                "Balcony with sea view",
+                "TV",
+                "Air conditioning",
+                "Refrigerator",
+                "Wi-Fi",
+                "Washing machine",
+                "Dishwasher",
+                "Coffee maker",
+                "Daily cleaning",
+                "Self-service laundry"
+            ]
+            },
+            "app3": {
+            "title": "Apartman 3",
+            "amenities": [
+
+            ]
+            },
+            "app4": {
+            "title": "Apartman 4",
+            "amenities": [
+
+            ]
+            }
+        }
+    }
+    
+}
