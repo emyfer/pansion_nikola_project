@@ -12,8 +12,16 @@ const Landing_page = () => {
   const [pansionRef, pansionVisible] = useScrollAnimation();
   const [campRef, campVisible] = useScrollAnimation();
   const [discoverRef, discoverVisible] = useScrollAnimation();
+  const [reviewsRef, reviewsVisible] = useScrollAnimation();
+
 
   const [heroRef, heroOffset] = useParallax(0.5);
+
+  const reviews = [
+  { id: 'review1', rating: 5 },
+  { id: 'review2', rating: 5 },
+  { id: 'review3',rating: 5 },
+];
 
 
   return (
@@ -76,6 +84,21 @@ const Landing_page = () => {
             <button className="landing_page_button">{t('landing_page.discover.button')}</button>
           </a>
         </div>
+      </div>
+
+      <div className={`reviews_section ${reviewsVisible ? 'is_visible' : ''}`} ref={reviewsRef}>
+          <h2 className="reviews_title">{t('landing_page.reviews.title')}</h2>
+          <div className="reviews_grid">
+              {reviews.map((review, index) => (
+                  <div
+                      key={review.id}
+                      className={`review_card ${index % 2 === 1 ? 'review_card_white' : 'review_card_blue'}`}
+                  >
+                      <div className="review_stars">{'★'.repeat(review.rating)}</div>
+                      <p className="review_text">{t(`landing_page.reviews.items.${review.id}`)}</p>
+                  </div>
+              ))}
+          </div>
       </div>
 
     </div>

@@ -15,24 +15,32 @@
     },
 
     "landing_page": {
-    "main_text1": "Dođi kao gost.",
-    "main_text2": "Otiđi kao prijatelj.",
-    "text": "Obiteljski smo posao već 60 godina i rado ugošćujemo goste iz cijelog svijeta u našem domu i našim srcima. Dođite i pridružite nam se te postanite i Vi dio naše obitelji.",
-    "pansion": {
-        "title": "Pansion Nikola",
-        "text": "Doživite udobnost i gostoljubivost u Pansionu Nikola, gdje je svaki boravak nezaboravan.",
-        "button": "Saznaj više"
-    },
-    "camp": {
-        "title": "Kamp Nikola",
-        "text": "Uživajte u prirodi u Kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
-        "button": "Saznaj više"
+        "main_text1": "Dođi kao gost.",
+        "main_text2": "Otiđi kao prijatelj.",
+        "text": "Obiteljski smo posao već 60 godina i rado ugošćujemo goste iz cijelog svijeta u našem domu i našim srcima. Dođite i pridružite nam se te postanite i Vi dio naše obitelji.",
+        "pansion": {
+            "title": "Pansion Nikola",
+            "text": "Doživite udobnost i gostoljubivost u Pansionu Nikola, gdje je svaki boravak nezaboravan.",
+            "button": "Saznaj više"
+        },
+        "camp": {
+            "title": "Kamp Nikola",
+            "text": "Uživajte u prirodi u Kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+            "button": "Saznaj više"
 
-    },
-    "discover": {
-        "title": "Discover Tisno",
-        "text": "Istražite sve  ljepote Tisna i okolice te ostvarite nezaboravna iskustva.",
-        "button": "Saznaj više"
+        },
+        "discover": {
+            "title": "Discover Tisno",
+            "text": "Istražite sve  ljepote Tisna i okolice te ostvarite nezaboravna iskustva.",
+            "button": "Saznaj više"
+        },
+        "reviews": {
+            "title": "Što kažu naši gosti",
+            "items": {
+                "review1": "Vrlo ljubazni vlasnici i osoblje. Uvijek su vrlo uslužni i spremni pronaći rješenja ili odgovore na bilo kakva pitanja.",
+                "review2": "Vrlo lijep smještaj, dobar doručak, prekrasna terasa, pogled na more je čaroban, domaćini su također sjajni, voljela bih se vratiti. Lijepi pozdrav.",
+                "review3": "Apsolutno idilično mjesto za opuštanje i osjećaj kao kod kuće. Voljeli bismo se vratiti!"
+            }
         }
     },
     "pansion_page": {
