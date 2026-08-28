@@ -153,7 +153,7 @@ const apartments = [
       './rooms/app305/image4.webp',
       './rooms/app305/image5.webp',
       './rooms/app305/image6.webp',
-      './rooms/app305/image6.webp'
+      './rooms/app305/image7.webp'
     ],
   },
 ];

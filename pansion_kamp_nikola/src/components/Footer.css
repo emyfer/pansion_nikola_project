@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: var(--primary_color);
     padding: 32px;
-    gap: 8px;
+    gap: 16px;
 }
 
 .footer_content {
@@ -17,6 +17,8 @@
     display: flex;
     gap: 16px;
     align-items: start;
+    text-decoration: underline;
+    text-decoration-color: var(--secondary_color);
 }
 
 .footer_link {

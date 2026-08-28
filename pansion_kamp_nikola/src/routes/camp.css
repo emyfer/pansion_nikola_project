@@ -11,32 +11,23 @@
     line-height: 1.5;
     position: relative;
 }
-.camp_photo_slider {
+
+.camp_hero_wrapper {
+    position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.camp_photo_slider_track {
-    display: flex;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    gap: 32px;
+.camp_hero_image {
+    width: 100%;
+    height: auto;      
+    display: block;
 }
 
-.camp_photo_slider_track img {
-    flex: 0 0 calc(33.333% - 11px); 
-    height: 25vw;
-    object-fit: cover;
-    border-radius: 16px;
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-}
-
-.camp_photo_slider_track::-webkit-scrollbar {
-    display: none;
-}
-.camp_photo_slider_track {
-    scrollbar-width: none;
+@media (max-width: 500px) {
+    .camp_hero_image {
+        height: 50vh;  
+    }
 }
 
 .camp_grid, 
@@ -129,6 +120,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 16px;
     padding: 32px;
 }
@@ -195,7 +187,7 @@
 
 .camp_gallery_title {
     color: var(--primary_color);
-    font-size: 24px;
+    font-size: 32px;
     font-family: var(--primary_font);
     text-align: left;
     width: 80%;
@@ -213,6 +205,14 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.camp_gallery_grid img {
+    transition: transform 0.4s ease;
+}
+
+.camp_gallery_grid img:hover {
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -255,4 +255,66 @@
     .camp_contact h2 {
         width: 100%;
     }
+}
+
+.lightbox_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.lightbox_image {
+    max-width: 85vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.lightbox_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.lightbox_arrow_left {
+    left: 16px;
+}
+
+.lightbox_arrow_right {
+    right: 16px;
+}
+.camp_grid_card_white,
+.camp_grid_card_blue {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.camp_grid_card_white:hover,
+.camp_grid_card_blue:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    cursor: default;
 }

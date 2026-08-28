@@ -1,8 +1,8 @@
 .apartments_page {
     padding: clamp(24px, 5vw, 48px) clamp(16px, 5vw, 64px);
     max-width: 900px;
-    margin: 0 auto;
-    padding-top: clamp(90px, 10vw, 120px); /* mjesto za fixed header */
+    margin: 10px auto;
+    padding-top: clamp(120px, 14vw, 140px); /* mjesto za fixed header */
 }
 
 .apartments_section_title {

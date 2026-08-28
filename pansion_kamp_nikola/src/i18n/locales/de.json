@@ -28,7 +28,7 @@
         },
         "discover": {
             "title": "Discover Tisno",
-            "text": "Entdecken Sie die Schönheit von Tisno mit unseren geführten Touren und intensiven Erlebnissen.",
+            "text": "Entdecken Sie die ganze Schönheit von Tisno und Umgebung für unvergessliche Erlebnisse.",
             "button": "Mehr erfahren"
         }
     },
@@ -39,6 +39,7 @@
         "address": "Adresse:",
         "phone": "Telefon:",
         "mobile": "Handy:",
+        "gallery": "Gallerie",
         "mobile_alt": "Alternatives Handy:",
         "email": "Email:",
         "map_title": "Camp Nikola",
@@ -65,6 +66,7 @@
         "mobile": "Handy:",
         "mobile_alt": "Alternatives Handy:",
         "email": "Email:",
+        "gallery": "Gallerie",
         "map_title": "Camp Nikola",
         "grid": {
 
@@ -83,7 +85,7 @@
         }
     },
     "discover_page": {
-        "text": "",
+        "text": "Tisno liegt dort, wo die Insel Murter fast das Festland berührt, getrennt durch eine nur 40 Meter breite Meerenge. Heute ist es das Verwaltungszentrum einer Gemeinde reich an Geschichte — von römischen Ruinen und einer Kirche aus dem 11. Jahrhundert bis zum Heiligtum aus dem 18. Jahrhundert auf dem Hügel Brošćica. Mit seiner langen Uferpromenade, üppigem Grün und nahegelegenen Stränden lädt Tisno zum Spazieren, Entspannen und Genießen hausgemachter dalmatinischer Köstlichkeiten aus dem Hinterland ein.",
         "sibenik": {
             "title": "Šibenik",
             "text": "Šibenik, die älteste selbstverwaltete kroatische Stadt an der Adria, liegt in der am besten geschützten natürlichen Bucht, im zentralen Teil der Ostküste der Adria, an der Mündung des Flusses Krka, wahrscheinlich an dem Ort, an dem einige der ersten angesiedelten Kroaten das Meer zum ersten Mal sahen.",

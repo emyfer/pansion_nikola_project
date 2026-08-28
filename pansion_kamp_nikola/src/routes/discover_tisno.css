@@ -7,6 +7,26 @@
     padding: clamp(16px, 4vw, 32px);
 }
 
+.discover_page_hero_wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.discover_page_hero_image {
+    width: 100%;
+    height: auto;     
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .discover_page_hero_image {
+        height: 50vh; 
+        object-fit: cover;
+    }
+}
+
 .discover_page_text_p {
     font-family: var(--secondary_font);
     font-size: clamp(1rem, 2vw, 1.3rem);
@@ -33,10 +53,10 @@
 }
 
 .discover_page_part img{
-    display: block;       /* uklanja inline razmak koji img ima po defaultu */
+    display: block;
     width: 50%;
-    height: auto;         /* umjesto 100% - pusti da se sama rastegne kroz align-self */
-    align-self: stretch;  /* eksplicitno prisili sliku da prati visinu susjeda */
+    height: auto;        
+    align-self: stretch;  
     object-fit: cover;
 }
 
@@ -99,5 +119,9 @@ h2 {
         height: auto;
         object-fit: cover;
         margin-bottom: 16px;
+    }
+
+    .discover_page_p {
+        text-align: center;
     }
 }

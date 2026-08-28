@@ -5,6 +5,9 @@ import { useRef } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import { FaWater, FaBreadSlice, FaBed, FaAnchor, FaBicycle } from "react-icons/fa";
 
+import { useParallax } from '../hooks/useParallax'
+
+
 const Pansion = () => {
 
   const { t } = useTranslation();
@@ -24,17 +27,20 @@ const Pansion = () => {
   const [gridRef, gridVisible] = useScrollAnimation();
   const [apartmentsRef, apartmentsVisible] = useScrollAnimation();
   const [contactRef, contactVisible] = useScrollAnimation();
+  const [heroRef, heroOffset] = useParallax(0.5);
+
 
   return (
     <div className="pansion">
-      <img src="./pansion/pansion.webp" style={{ width: '100%', height: '100%', objectFit: 'cover', margin: 0 }} alt="" />
-      <h2 className="pansion_text">{t('pansion_page.text')}</h2>
-      <div className="pansion_photo_slider_track" ref={trackRef} onWheel={handleWheel}>
-        <img src="/landing_page/camp.jpg" alt="" />
-        <img src="/landing_page/discover.jpg" alt="" />
-        <img src="/landing_page/pansion.jpg" alt="" />  
-        <img src="slika.png" alt="" />  
+      <div className="pansion_hero_wrapper" ref={heroRef}>
+        <img
+          src="./pansion/main.jpg"
+          className="pansion_hero_image"
+          style={{ transform: `translateY(${heroOffset}px)` }}
+          alt=""
+        />
       </div>
+      <h2 className="pansion_text">{t('pansion_page.text')}</h2>
 
 
       <div className={`pansion_grid ${gridVisible ? 'is_visible' : ''}`} ref={gridRef}>
@@ -87,7 +93,8 @@ const Pansion = () => {
       </div>
 
       <div className={`pansion_apartments ${apartmentsVisible ? 'is_visible' : ''}`} ref={apartmentsRef}>
-        <div style={{ width: '100%', height: '200px' }}></div>
+        <h4 className='pansion_see_apartments_text'>We offer a range of possible rooms and apartments for you to choose from. Take a look and discover which one suits your needs.</h4>
+
         <div className='pansion_apartments_button'>
           <a href="/apartments">
             <button>{t('pansion_page.see_apartments')}</button>
@@ -95,14 +102,26 @@ const Pansion = () => {
         </div>
       </div>
 
+      <div className="pansion_photo_slider_track" ref={trackRef} onWheel={handleWheel}>
+        <img src="/pansion/image1.jpg" alt="" />
+        <img src="/pansion/image2.jpg" alt="" />
+        <img src="/pansion/image3.jpg" alt="" />
+        <img src="/pansion/image4.jpg" alt="" />
+        <img src="/pansion/image5.webp" alt="" />
+        <img src="/pansion/image6.webp" alt="" />
+        <img src="/pansion/image7.webp" alt="" />
+        <img src="/pansion/image8.webp" alt="" />
+      </div>
+
+
       <div className={`pansion_contact ${contactVisible ? 'is_visible' : ''}`} ref={contactRef}>
         <h2 className="pansion_contact_title">{t('pansion_page.info')}</h2>
         <div className="pansion_contact_flex">
           <div className="pansion_contact_information">
-            <p>email@example.com</p>
+            <p>{t('pansion_page.email')} nikolapansion@gmail.com</p>
             <p>{t('pansion_page.phone')} +385 (0)22 438 239</p>
-            <p>{t('pansion_page.address')}: Put Jazine 192, 22 240 Tisno, Hrvatska</p>
-            <p>{t('pansion_page.mobile')}: +385 (0)98 739 260, {t('pansion_page.mobile_alt')}: +385 (0)98 199 29 13</p>
+            <p>{t('pansion_page.address')} Put Jazine 192, 22 240 Tisno, Hrvatska</p>
+            <p>{t('pansion_page.mobile')} +385 (0)98 739 260</p>
 
             <a href="https://www.tisno.in/pansionnikola" target="_blank" rel="noopener noreferrer">
               <p>tisno.in/pansionnikola</p>

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Crimson+Text:wght@400;600;700&family=Fauna+One&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
   --primary_text_color : #0C1F27;
   --secondary_text_color : #3A464B;

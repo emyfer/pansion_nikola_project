@@ -7,6 +7,26 @@
     font-family: var(--serif_font);
 }
 
+.pansion_hero_wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pansion_hero_image {
+    width: 100%;
+    height: auto;      /* isto ponašanje kao prije - prati prirodnu visinu/omjer slike */
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .pansion_hero_image {
+        height: 50vh;   /* tek na manjim ekranima prisili minimalnu visinu */
+        object-fit: cover;
+    }
+}
+
 .pansion_photo_slider {
     width: 100%;
     overflow: hidden;
@@ -121,6 +141,17 @@
     opacity: 0.9;
 }
 
+.pansion_grid_card_white,
+.pansion_grid_card_blue {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pansion_grid_card_white:hover,
+.pansion_grid_card_blue:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    cursor: default;
+}
 
 
 .pansion_apartments_button {
@@ -130,6 +161,24 @@
     margin-bottom: 32px;
 }
 
+.pansion_apartments {
+    padding-top: 10%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pansion_see_apartments_text {
+    width: 80%;
+    font-size: 2.5vw;
+    font-weight: 600;
+    font-family: var(--secondary_font);
+    color: var(--primary_text_color);
+    text-align: center;
+
+}
 
 .pansion_contact {
     display: flex;

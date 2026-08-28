@@ -14,7 +14,6 @@ const Footer = () => {
                 <Link to="/pansion" className="footer_link">{t('header.nav.pansion')}</Link>
                 <Link to="/camp" className="footer_link">{t('header.nav.camp')}</Link>
                 <Link to="/discover_Tisno" className="footer_link">{t('header.nav.discoverTisno')}</Link>
-                <Link to="/dry_marina" className="footer_link">{t('header.nav.dryMarina')}</Link>
             </div>
 
             <div className="footer_contact">

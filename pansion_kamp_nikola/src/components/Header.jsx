@@ -5,7 +5,8 @@ import { useTranslation } from 'react-i18next'
 import { FaGlobe, FaBars, FaTimes } from "react-icons/fa"
 import { useLocation } from 'react-router-dom'
 
-const noHeroPages = ['/apartments'];
+const darkTextOnLoadPages = ['/camp', '/pansion'];
+const forceScrolledPages = ['/apartments'];
 
 
 const languages = [
@@ -16,13 +17,17 @@ const languages = [
 ];
 
 const Header = () => {
-    const location = useLocation();
-    const forceScrolled = noHeroPages.includes(location.pathname);
+
     const { t, i18n } = useTranslation();
     const [showLangMenu, setShowLangMenu] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+
     const langMenuRef = useRef(null);
+    const location = useLocation();
+    const isDarkTextPage = darkTextOnLoadPages.includes(location.pathname);
+    const forceScrolled = forceScrolledPages.includes(location.pathname);
+
 
     const handleSelectLang = (code) => {
         i18n.changeLanguage(code);
@@ -48,7 +53,8 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={`header ${(isScrolled || forceScrolled) ? 'header_scrolled' : ''}`}>        <Link to="/" className="header_logo">
+<nav className={`header ${(isScrolled || forceScrolled) ? 'header_scrolled' : ''} ${isDarkTextPage ? 'header_dark_on_load' : ''}`}>    
+    <Link to="/" className="header_logo">
             <h1 className="header_title">
                 {t('header.title')} <span className="accent_text">Nikola</span>
             </h1>
@@ -102,9 +108,7 @@ const Header = () => {
                 <Link to="/discover_tisno" className="header_mobile_link" onClick={() => setShowMobileMenu(false)}>
                     {t('header.nav.discoverTisno')}
                 </Link>
-                <Link to="/dryMarina" className="header_mobile_link" onClick={() => setShowMobileMenu(false)}>
-                    {t('header.nav.dryMarina')}
-                </Link>
+
 
                 <div className="header_mobile_languages">
                     {languages.map((lang) => (

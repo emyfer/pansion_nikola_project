@@ -6,6 +6,46 @@
     padding: clamp(20px, 5vw, 32px);
 }
 
+.landing_page_hero_wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.landing_page_hero {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .landing_page_hero {
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+.landing_page_hero_text {
+    position: absolute;
+    top: 62%;              /* podesi postotak da pogodi točno mjesto sa slike */
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.landing_page_hero_text p {
+    font-family: var(--accent_font);
+    font-style: italic;
+    font-size: clamp(24px, 3vw, 64px);
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    line-height: 1.4;
+}
+
 .landing_page_text_p {
     font-family: var(--serif_font);
     font-size: clamp(20px, 4vw, 32px);
@@ -33,7 +73,9 @@
 .landing_page_part img {
     display: block;
     width: 50%;
+    height: auto;
     object-fit: cover;
+    align-self: stretch;
 }
 
 .landing_page_container {

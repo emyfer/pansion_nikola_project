@@ -2,6 +2,9 @@ import React from 'react'
 import './Landing_page.css'
 import { useTranslation } from 'react-i18next'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import { useParallax } from '../hooks/useParallax'
+
+
 
 const Landing_page = () => {
   const { t } = useTranslation();
@@ -10,20 +13,27 @@ const Landing_page = () => {
   const [campRef, campVisible] = useScrollAnimation();
   const [discoverRef, discoverVisible] = useScrollAnimation();
 
+  const [heroRef, heroOffset] = useParallax(0.5);
+
+
   return (
     <div className="landing_page">
-      <img src="/slika.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" />
-      <p>{t('landing_page.main_text1')}</p>
-      <p>{t('landing_page.main_text2')}</p>
+      <div className="landing_page_hero_wrapper" ref={heroRef}>
+        <img src="/landing_page/main.png" className='landing_page_hero' alt="" style={{transform:`translateY(${heroOffset}px)`}}/>
+        <div className="landing_page_hero_text">
+            <p>"{t('landing_page.main_text1')}</p>
+            <p>{t('landing_page.main_text2')}"</p>
+        </div>
+      </div>
       <div className="landing_page_text">
-        <p className="landing_page_text_p">{t('landing_page.text')}</p>
+        <p className="landing_page_text_p">-{t('landing_page.text')}-</p>
       </div>
 
-      <div
+    <div
         ref={pansionRef}
         className={`landing_page_part ${pansionVisible ? 'is_visible' : ''}`}
       >
-        <img src="/landing_page/pansion.jpg" alt="" />
+        <img src="/pansion/main.jpg" alt="" />
 
         <div className="landing_page_container">
           <h2>{t('landing_page.pansion.title')}</h2>
@@ -49,14 +59,14 @@ const Landing_page = () => {
           </a>
         </div>
 
-        <img src="/landing_page/camp.jpg" alt="" />
+        <img src="./camp/main.jpg" alt="" />
       </div>
 
       <div
         ref={discoverRef}
         className={`landing_page_part ${discoverVisible ? 'is_visible' : ''}`}
       >
-        <img src="/landing_page/discover.jpg" alt="" />
+        <img src="./discover_page/tisno.jpg" alt="" />
 
         <div className="landing_page_container">
           <h2>{t('landing_page.discover.title')}</h2>

@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './camp.css'
 import { useTranslation } from 'react-i18next'
 import { useRef } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
-import { FaUmbrellaBeach, FaShower, FaBolt, FaPaw, FaHeart } from "react-icons/fa";
+import { FaUmbrellaBeach, FaShower, FaBolt, FaPaw, FaHeart, FaTimes, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useParallax } from '../hooks/useParallax'
 
 
+
+const galleryImages = [
+  './camp/image1.jpg', './camp/image2.jpg', './camp/image3.jpg', './camp/image4.jpg',
+  './camp/image5.jpg', './camp/image6.jpg', './camp/image7.jpg', './camp/image8.jpg',
+  './camp/image9.jpg', './camp/image10.jpg', './camp/image11.jpg', './camp/image12.jpg',
+  './camp/image13.jpg', './camp/main.jpg', './camp/image15.jpg', './camp/image14.jpg',
+];
 
 const Camp = () => {
 
@@ -27,9 +35,31 @@ const Camp = () => {
   const [contactRef, contactVisible] = useScrollAnimation();
   const [galleryRef, galleryVisible] = useScrollAnimation();
 
+  const [heroRef, heroOffset] = useParallax(0.5);
+
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+
+  const openLightbox = (index) => setLightboxIndex(index);
+  const closeLightbox = () => setLightboxIndex(null);
+
+  const showPrev = () => {
+    setLightboxIndex((prev) => (prev === 0 ? galleryImages.length - 1 : prev - 1));
+  };
+
+  const showNext = () => {
+    setLightboxIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1));
+  };
+
   return (
     <div className="camp">
-      <img src="./camp/main.jpg" style={{ width: '100%', height: '100%', objectFit: 'cover', margin: 0 }} alt="" />
+      <div className="camp_hero_wrapper" ref={heroRef}>
+        <img
+          src="./camp/main.jpg"
+          className="camp_hero_image"
+          style={{ transform: `translateY(${heroOffset}px)` }}
+          alt=""
+        />
+      </div>
       <h2 className="camp_text">- {t('camp_page.text')} -</h2>
 
       <div className={`camp_grid ${gridVisible ? 'is_visible' : ''}`} ref={gridRef}>
@@ -51,7 +81,6 @@ const Camp = () => {
             <p>{t('camp_page.grid.text2')}</p>
           </div>
         </div>
-
 
         <div className="camp_grid_card"></div>
         <div className="camp_grid_card_white">
@@ -86,10 +115,10 @@ const Camp = () => {
         <h2 className="camp_contact_title">{t('pansion_page.info')}</h2>
         <div className="camp_contact_flex">
           <div className="camp_contact_information">
-            <p>{t('camp_page.email')} email@example.com</p>
+            <p>{t('camp_page.email')} nikolapansion@gmail.com</p>
             <p>{t('camp_page.phone')} +385 (0)22 438 239</p>
-            <p>{t('camp_page.address')} Put Jazine 192, 22 240 Tisno, Hrvatska</p>
-            <p>{t('camp_page.mobile')} +385 (0)98 739 260, {t('camp_page.mobile_alt')} +385 (0)98 199 29 13</p>
+            <p>{t('camp_page.address')} Put Jazine 332, 22 240 Tisno, Hrvatska</p>
+            <p>{t('camp_page.mobile')} +385 (0)98 739 260</p>
 
             <a href="https://www.tisno.in/pansionnikola" target="_blank" rel="noopener noreferrer">
               <p>tisno.in/pansionnikola</p>
@@ -115,24 +144,46 @@ const Camp = () => {
       <div className={`camp_gallery ${galleryVisible ? 'is_visible' : ''}`} ref={galleryRef}>
         <h2 className="camp_gallery_title">{t('camp_page.gallery')}</h2>
         <div className="camp_gallery_grid">
-          <img src="./camp/image1.jpg" alt="" />
-          <img src="./camp/image2.jpg" alt="" />
-          <img src="./camp/image3.jpg" alt="" />
-          <img src="./camp/image4.jpg" alt="" />
-          <img src="./camp/image5.jpg" alt="" />
-          <img src="./camp/image6.jpg" alt="" />
-          <img src="./camp/image7.jpg" alt="" />
-          <img src="./camp/image8.jpg" alt="" />
-          <img src="./camp/image9.jpg" alt="" />
-          <img src="./camp/image10.jpg" alt="" />
-          <img src="./camp/image11.jpg" alt="" />
-          <img src="./camp/image12.jpg" alt="" />
-          <img src="./camp/image13.jpg" alt="" />
-          <img src="./camp/image14.jpg" alt="" />
-          <img src="./camp/image15.jpg" alt="" />
-          <img src="./camp/image16.jpg" alt="" />
+          {galleryImages.map((src, index) => (
+            <img
+              key={index}
+              src={src}
+              alt=""
+              onClick={() => openLightbox(index)}
+              style={{ cursor: 'pointer' }}
+            />
+          ))}
         </div>
       </div>
+
+      {lightboxIndex !== null && (
+        <div className="lightbox_overlay" onClick={closeLightbox}>
+          <button className="lightbox_close" onClick={closeLightbox}>
+            <FaTimes />
+          </button>
+
+          <button
+            className="lightbox_arrow lightbox_arrow_left"
+            onClick={(e) => { e.stopPropagation(); showPrev(); }}
+          >
+            <FaChevronLeft />
+          </button>
+
+          <img
+            src={galleryImages[lightboxIndex]}
+            alt=""
+            className="lightbox_image"
+            onClick={(e) => e.stopPropagation()}
+          />
+
+          <button
+            className="lightbox_arrow lightbox_arrow_right"
+            onClick={(e) => { e.stopPropagation(); showNext(); }}
+          >
+            <FaChevronRight />
+          </button>
+        </div>
+      )}
 
     </div>
   )

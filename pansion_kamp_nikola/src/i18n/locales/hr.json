@@ -17,21 +17,21 @@
     "landing_page": {
     "main_text1": "Dođi kao gost.",
     "main_text2": "Otiđi kao prijatelj.",
-    "text": "Obiteljski smo posao već 60 godina i rado ugošćujemo goste iz cijelog svijeta u našem domu i srcu. Dođite i pridružite im se i postanite dio naše obitelji.",
+    "text": "Obiteljski smo posao već 60 godina i rado ugošćujemo goste iz cijelog svijeta u našem domu i našim srcima. Dođite i pridružite nam se te postanite i Vi dio naše obitelji.",
     "pansion": {
         "title": "Pansion Nikola",
         "text": "Doživite udobnost i gostoljubivost u Pansionu Nikola, gdje je svaki boravak nezaboravan.",
         "button": "Saznaj više"
     },
     "camp": {
-        "title": "Camp Nikola",
-        "text": "Uživajte u prirodi u Campu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+        "title": "Kamp Nikola",
+        "text": "Uživajte u prirodi u Kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
         "button": "Saznaj više"
 
     },
     "discover": {
         "title": "Discover Tisno",
-        "text": "Istražite ljepote Tisna kroz naše vođene ture i nezaboravna iskustva.",
+        "text": "Istražite sve  ljepote Tisna i okolice te ostvarite nezaboravna iskustva.",
         "button": "Saznaj više"
         }
     },
@@ -83,7 +83,7 @@
         }
     },
     "discover_page": {
-        "text": "Tisno je nastalo na mjestu na kojemu otok Murter gotovo dodiruje kopno pa je po uskom tjesnacu, širokom samo 40 metara, dobilo ime. Početkom 18. stoljeća sagrađen je most pa se Tisno počelo širiti i na kopno. Danas je Tisno administrativno središte općine, kojoj uz otočna mjesta Betinu i Jezera, pripadaju Dazlina i Ivinj te zaselak Dubrava u zaleđu. Područje Tisna obiluje kulturno-povijesnim spomenicima. Pored crkve sv. Martina u Ivinju, iz 11. stoljeća, pronađeni su zidovi rimske villae rusticae, bazilika i ranokršćanska krstionica. Na brdu Brošćica iznad Tisnog nalazi se crkva iz 18. stoljeća, svetište Gospe od Karavaja, danas okupljalište vjernika iz čitave Dalmacije. Uz bujno zelenilo, Tisno ima prostrane trgove i dugu rivu, kao stvorenu za šetnje i druženje. Okruženo je prekrasnim plažama i kilometrima šetnica, a zaleđe nudi pastoralne slike Dalmacije i nezaboravne okuse domaće hrane s obiteljskih gospodarstava.",
+        "text": "Tisno se nalazi na mjestu gdje otok Murter gotovo dodiruje kopno, odvojen tjesnacem širokim samo 40 metara. Danas je administrativno središte općine bogate poviješću. Od rimskih ostataka i crkve iz 11. stoljeća do svetišta iz 18. stoljeća na brdu Brošćica. Sa svojom dugom rivom, bujnim zelenilom i obližnjim plažama, Tisno poziva na šetnju, opuštanje i uživanje u domaćim dalmatinskim okusima iz okolnog zaleđa.",
         "sibenik": {
             "title": "Šibenik",
             "text": "Šibenik, najstariji samorodni hrvatski grad na Jadranu, nalazi se u najzaštićenijoj prirodnoj luci, posred istočne obale Jadranskog mora, prastarog mare Adriaticuma, na ušću rijeke Krke, vjerojatno na mjestu gdje su neki od prvih doseljenih Hrvata ugledali more.",

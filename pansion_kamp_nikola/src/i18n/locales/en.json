@@ -28,7 +28,7 @@
         },
         "discover": {
             "title": "Discover Tisno",
-            "text": "Explore the beauty of Tisno with our guided tours and immersive experiences.",
+            "text": "Explore all the beauty of Tisno and its surroundings for unforgettable experiences.",
             "button": "Learn More"
         }
     },
@@ -52,10 +52,10 @@
             "text3": "Start your day with a traditional Dalmatian breakfast.",
             "title4": "Air Conditioning",
             "text4": "Stay cool and comfortable throughout your stay.",
-            "title5": "Suha marina",
-            "text5": "25 vezova za sigurno skladištenje plovila",
-            "title6": "Posudba bicikala",
-            "text6": "Istražite okolicu Tisna na dva kotača"
+            "title5": "Dry marina",
+            "text5": "25 berths for safe boat storage.",
+            "title6": "Bike rentals",
+            "text6": "Discover Tisno and its surroundings on two wheels."
         }
     },
     "camp_page": {
@@ -85,7 +85,7 @@
         
     },
     "discover_page": {
-        "text": "Tisno is located at the point where the island of Murter almost touches the mainland, and it got its name from the narrow strait, which is only 40 meters wide. In the early 18th century, a bridge was built, and Tisno began to expand onto the mainland. Today, Tisno is the administrative center of the municipality, which includes the island towns of Betina and Jezera, as well as Dazlina and Ivinj and the hamlet of Dubrava inland. The area of Tisno is rich in cultural and historical monuments. In addition to the Church of St. Martin in Ivinj, dating back to the 11th century, walls of a Roman villa rustica, a basilica, and an early Christian baptistery have been found. On Brošćica hill above Tisno stands an 18th-century church, the sanctuary of Our Lady of Karavaja, which today serves as a gathering place for believers from all over Dalmatia. Surrounded by lush greenery, Tisno has spacious squares and a long waterfront, perfect for strolling and socializing. It is surrounded by beautiful beaches and kilometers of walking paths, while the hinterland offers pastoral scenes of Dalmatia and unforgettable tastes of homemade food from family farms.",
+        "text":"Tisno lies where the island of Murter almost touches the mainland, separated by a strait just 40 meters wide. Today it's the administrative center of a municipality rich in history. From Roman ruins and an 11th-century church to the 18th-century sanctuary on Brošćica hill. With its long waterfront, lush greenery, and nearby beaches, Tisno invites you to stroll, relax, and savor homemade Dalmatian flavors from the surrounding countryside.",
         "sibenik": {
             "title": "Šibenik",
             "text": "Šibenik, the oldest self-governing Croatian city on the Adriatic, is located in the most protected natural harbor, in the central part of the Adriatic Sea's eastern coast, at the mouth of the Krka River, likely at the place where some of the first settled Croats first saw the sea.",

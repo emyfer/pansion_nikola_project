@@ -2,6 +2,8 @@ import React from 'react'
 import './discover_tisno.css'
 import { useTranslation } from 'react-i18next'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import { useParallax } from '../hooks/useParallax'
+
 
 const Discover_Tisno = () => {
   const { t } = useTranslation();
@@ -10,10 +12,19 @@ const Discover_Tisno = () => {
   const [zadarRef, zadarVisible] = useScrollAnimation();
   const [krkaRef, krkaVisible] = useScrollAnimation();
   const [kornatiRef, kornatiVisible] = useScrollAnimation();
+  const [heroRef, heroOffset] = useParallax(0.5);
 
+  
   return (
     <div className="discover_page">
-      <img src="./discover_page/tisno.jpg" style={{ width: '100%', height: '80%', objectFit: 'cover' }} alt="" />
+       <div className="discover_page_hero_wrapper" ref={heroRef}>
+        <img
+          src="./discover_page/tisno.jpg"
+          className="discover_page_hero_image"
+          style={{ transform: `translateY(${heroOffset}px)` }}
+          alt=""
+        />
+      </div>
       <div className="discover_page_text" >
         <h2>Discover Tisno</h2>
         <p className="discover_page_text_p">{t('discover_page.text')}</p>
