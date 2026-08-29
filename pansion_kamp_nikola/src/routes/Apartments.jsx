@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './apartments.css'
+import './Apartments.css'
 import { useTranslation } from 'react-i18next'
 
 const rooms = [
