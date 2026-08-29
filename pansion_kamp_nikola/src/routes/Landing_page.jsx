@@ -47,9 +47,9 @@ const Landing_page = () => {
           <h2>{t('landing_page.pansion.title')}</h2>
           <p className="landing_page_p">{t('landing_page.pansion.text')}</p>
 
-          <a href="/pansion" className="landing_page_buttons">
+          <Link to="/pansion" className="landing_page_buttons">
             <button className="landing_page_button">{t('landing_page.pansion.button')}</button>
-          </a>
+        </Link>
         </div>
       </div>
 
@@ -62,9 +62,10 @@ const Landing_page = () => {
           <h2>{t('landing_page.camp.title')}</h2>
           <p className="landing_page_p">{t('landing_page.camp.text')}</p>
 
-          <a href="/camp" className="landing_page_buttons">
-            <button className="landing_page_button">{t('landing_page.camp.button')}</button>
-          </a>
+
+          <Link to="/camp" className="landing_page_buttons">
+              <button className="landing_page_button">{t('landing_page.camp.button')}</button>
+          </Link>
         </div>
 
         <img src="./camp/main.jpg" alt="" />
@@ -79,10 +80,10 @@ const Landing_page = () => {
         <div className="landing_page_container">
           <h2>{t('landing_page.discover.title')}</h2>
           <p className="landing_page_p">{t('landing_page.discover.text')}</p>
-
-          <a href="/discover" className="landing_page_buttons">
+          <Link to="/discover" className="landing_page_buttons">
             <button className="landing_page_button">{t('landing_page.discover.button')}</button>
-          </a>
+          </Link>
+
         </div>
       </div>
 
