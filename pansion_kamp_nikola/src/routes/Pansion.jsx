@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useRef } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import { FaWater, FaBreadSlice, FaBed, FaAnchor, FaBicycle } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 
 import { useParallax } from '../hooks/useParallax'
 
@@ -96,9 +97,10 @@ const Pansion = () => {
         <h4 className='pansion_see_apartments_text'>{t('pansion_page.apartments')}</h4>
 
         <div className='pansion_apartments_button'>
-          <a href="/apartments">
-            <button>{t('pansion_page.see_apartments')}</button>
-          </a>
+
+          <Link to="/apartments">
+              <button>{t('pansion_page.see_apartments')}</button>
+          </Link>
         </div>
       </div>
 

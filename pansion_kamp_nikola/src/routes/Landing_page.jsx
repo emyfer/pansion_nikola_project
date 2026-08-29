@@ -3,6 +3,7 @@ import './Landing_page.css'
 import { useTranslation } from 'react-i18next'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import { useParallax } from '../hooks/useParallax'
+import { Link } from 'react-router-dom'
 
 
 
