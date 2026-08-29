@@ -30,6 +30,14 @@
             "title": "Discover Tisno",
             "text": "Explore all the beauty of Tisno and its surroundings for unforgettable experiences.",
             "button": "Learn More"
+        },
+        "reviews": {
+            "title": "What our guests say",
+            "items": {
+                "review1": "Very kind owners and staff. They are always very helpful and ready to find solutions or answers to any questions.",
+                "review2": "Very lovely accommodation, good breakfast, beautiful terrace, the sea view is magical, the hosts are also great, I would love to come back. Kind regards.",
+                "review3": "An absolutely idyllic place to relax and feel at home. We would love to return!"
+            }
         }
     },
     "pansion_page": {
@@ -42,6 +50,7 @@
         "mobile_alt": "Alternative Mobile:",
         "email": "Email:",
         "map_title": "Camp Nikola",
+        "apartments": "We offer a range of possible rooms and apartments for you to choose from. Take a look and discover which one suits your needs.",
         "gallery": "Gallery",
         "grid": {
             "title1": "Sea view",

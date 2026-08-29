@@ -93,7 +93,7 @@ const Pansion = () => {
       </div>
 
       <div className={`pansion_apartments ${apartmentsVisible ? 'is_visible' : ''}`} ref={apartmentsRef}>
-        <h4 className='pansion_see_apartments_text'>We offer a range of possible rooms and apartments for you to choose from. Take a look and discover which one suits your needs.</h4>
+        <h4 className='pansion_see_apartments_text'>{t('pansion_page.apartments')}</h4>
 
         <div className='pansion_apartments_button'>
           <a href="/apartments">
