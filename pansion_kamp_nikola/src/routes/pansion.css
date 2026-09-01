@@ -172,7 +172,7 @@
 
 .pansion_see_apartments_text {
     width: 80%;
-    font-size: 2.5vw;
+    font-size: clamp(24px, 3vw, 60px);
     font-weight: 600;
     font-family: var(--secondary_font);
     color: var(--primary_text_color);
@@ -255,6 +255,10 @@
 }
 
 @media (max-width: 500px) {
+    #hidden {
+        display: none;
+    }
+
     .pansion_grid {
         grid-template-columns: 1fr;
     }

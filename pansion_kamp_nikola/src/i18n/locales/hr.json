@@ -3,15 +3,18 @@
         "title": "Pansion i Kamp",
         "nav": {
         "pansion": "Pansion",
-        "camp": "Kamp",
+        "camp": "Auto Kamp",
         "discoverTisno": "Upoznaj Tisno",
         "dryMarina": "Suha Marina"
         }
     },
 
     "footer": {
-        "copyright": "Pansion i Kamp Nikola. Sva prava pridržana.",
-        "phone": "Telefon"
+        "copyright": "Pansion i Auto Kamp Nikola. Sva prava pridržana.",
+        "phone": "Telefon",
+        "panison": "Pansion",
+        "camp": "Auto Kamp",
+        "discover": "Upoznaj Tisno"
     },
 
     "landing_page": {
@@ -25,7 +28,7 @@
         },
         "camp": {
             "title": "Kamp Nikola",
-            "text": "Uživajte u prirodi u Kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+            "text": "Uživajte u prirodi u Auto kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
             "button": "Saznaj više"
 
         },
@@ -63,14 +66,14 @@
             "text3": "Započnite dan s tradicionalnim dalmatinskim doručkom.",
             "title4": "Klima uređaj",
             "text4": "Ugodna svježina tijekom cijelog boravka.",
-            "title5": "Suha marina",
-            "text5": "25 vezova za sigurno skladištenje plovila",
+            "title5": "Čuvanje plovila",
+            "text5": "25 vezova za sigurno skladištenje plovila na ograđenoj parceli",
             "title6": "Posudba bicikala",
             "text6": "Istražite okolicu Tisna na dva kotača"
         }
     },
     "camp_page": {
-        "text": "Uživajte u prirodi u Campu Nikola, savršenom spoju netaknute prirode i opuštanja.",
+        "text": "Uživajte u prirodi u Auto kampu Nikola, savršenom spoju netaknute prirode i opuštanja.",
         "see_camp": "Pogledaj kamp",
         "gallery": "Galerija",
         "email": "Email:",

@@ -1,16 +1,18 @@
 {
     "header": {
-        "title": "Pansion and Camp",
+        "title": "Pansion and Auto Camp",
         "nav": {
             "pansion": "Pansion",
-            "camp": "Camp",
-            "discoverTisno": "Discover Tisno",
-            "dryMarina": "Dry Marina"
+            "camp": "Auto Camp",
+            "discoverTisno": "Discover Tisno"
         }
     },
     "footer": {
-        "copyright": "Pansion and Camp Nikola. All rights reserved.",
-        "phone": "Phone"
+        "copyright": "Pansion and Auto Camp Nikola. All rights reserved.",
+        "phone": "Phone",
+        "pansion": "Pansion",
+            "camp": "Auto Camp",
+            "discover": "Discover Tisno"
     },
     "landing_page": {
         "main_text1": "Come as a guest.",
@@ -23,7 +25,7 @@
         },
         "camp": {
             "title": "Camp Nikola",
-            "text": "Enjoy the great outdoors at Camp Nikola, offering a perfect blend of nature and relaxation.",
+            "text": "Enjoy the great outdoors at Auto Camp Nikola, offering a perfect blend of nature and relaxation.",
             "button": "Learn More"
         },
         "discover": {
@@ -68,7 +70,7 @@
         }
     },
     "camp_page": {
-        "text": "Enjoy the great outdoors at Camp Nikola, offering a perfect blend of nature and relaxation.",
+        "text": "Enjoy the great outdoors at Auto Camp Nikola, offering a perfect blend of nature and relaxation.",
 
         "address": "Address:",
         "phone": "Phone:",

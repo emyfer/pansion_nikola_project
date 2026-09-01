@@ -1,33 +1,35 @@
 {
     "header": {
-        "title": "Pansion e Camp",
+        "title": "Pansione e Campeggio",
         "nav": {
-        "pansion": "Pansion",
-        "camp": "Camp",
-        "discoverTisno": "Discover Tisno",
-        "dryMarina": "Dry Marina"
+        "pansion": "Pensione",
+        "camp": "Campeggio",
+        "discoverTisno": "Scopri Tisno"
         }
     },
     "footer": {
-        "copyright": "Pansion e Camp Nikola. Tutti i diritti riservati.",
-        "phone": "Telefono"
+        "copyright": "Pansion e Campeggio Nikola. Tutti i diritti riservati.",
+        "phone": "Telefono",
+        "pansion": "Pensione",
+        "camp": "Campeggio",
+        "discoverTisno": "Scopri Tisno"
     },
     "landing_page": {
         "main_text1": "Vieni come ospite.",
         "main_text2": "Vai via come amico.",
         "text": "Siamo un'attività a conduzione familiare. Da 60 anni accogliamo ospiti da tutto il mondo nella nostra casa e nei nostri cuori. Vieni a unirti a loro e diventa parte della nostra famiglia.",
         "pansion": {
-            "title": "Pansion Nikola",
+            "title": "Pensione Nikola",
             "text": "Vivi il comfort e l'ospitalità al Pansion Nikola, dove ogni soggiorno è indimenticabile.",
             "button": "Scopri di più"
         },
         "camp": {
-            "title": "Camp Nikola",
-            "text": "Goditi la natura al Camp Nikola, un perfetto mix di natura incontaminata e relax.",
+            "title": "Campeggio Nikola",
+            "text": "Goditi la natura al Campeggio Nikola, un perfetto mix di natura incontaminata e relax.",
             "button": "Scopri di più"
         },
         "discover": {
-            "title": "Discover Tisno",
+            "title": "Scorpi Tisno",
             "text": "Scopri tutta la bellezza di Tisno e dintorni per esperienze indimenticabili.",
             "button": "Scopri di più"
         },
@@ -67,7 +69,7 @@
         }
     },
     "camp_page": {
-        "text": "Goditi la natura al Camp Nikola, un perfetto mix di natura incontaminata e relax.",
+        "text": "Goditi la natura al Campeggio Nikola, un perfetto mix di natura incontaminata e relax.",
         "see_camp": "Visualizza campeggi disponibili",
         "email": "Email:",
         "phone": "Telefono:",

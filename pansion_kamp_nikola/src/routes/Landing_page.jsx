@@ -81,7 +81,7 @@ const Landing_page = () => {
         <div className="landing_page_container">
           <h2>{t('landing_page.discover.title')}</h2>
           <p className="landing_page_p">{t('landing_page.discover.text')}</p>
-          <Link to="/discover" className="landing_page_buttons">
+          <Link to="/discover_Tisno" className="landing_page_buttons">
             <button className="landing_page_button">{t('landing_page.discover.button')}</button>
           </Link>
 

@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 
 import { useParallax } from '../hooks/useParallax'
 
-
 const Pansion = () => {
 
   const { t } = useTranslation();
@@ -64,7 +63,8 @@ const Pansion = () => {
           </div>
         </div>
 
-        <div className="pansion_grid_card"></div>
+        <div className="pansion_grid_card" id='hidden'></div>
+
         <div className="pansion_grid_card_white">
           <span className="camp_grid_card_icon"><FaBreadSlice /></span>
           <div className='pansion_grid_card_text'>
@@ -73,7 +73,8 @@ const Pansion = () => {
           </div>
         </div>
 
-        <div className="pansion_grid_card"></div>
+        <div className="pansion_grid_card" id='hidden'></div>
+
         <div className="pansion_grid_card_white">
           <span className="camp_grid_card_icon"><FaBicycle /></span>
           <div className='pansion_grid_card_text'>
@@ -90,7 +91,7 @@ const Pansion = () => {
           </div>
         </div>
 
-        <div className="pansion_grid_card"></div>
+        <div className="pansion_grid_card" id='hidden'></div>
       </div>
 
       <div className={`pansion_apartments ${apartmentsVisible ? 'is_visible' : ''}`} ref={apartmentsRef}>

@@ -82,7 +82,7 @@ const Camp = () => {
           </div>
         </div>
 
-        <div className="camp_grid_card"></div>
+        <div className="camp_grid_card" id='hidden'></div>
         <div className="camp_grid_card_white">
           <span className="camp_grid_card_icon"><FaBolt /></span>
           <div className='camp_grid_card_text'>
@@ -91,7 +91,7 @@ const Camp = () => {
           </div>
         </div>
 
-        <div className="camp_grid_card"></div>
+        <div className="camp_grid_card" id='hidden'></div>
         <div className="camp_grid_card_white">
           <span className="camp_grid_card_icon"><FaPaw /></span>
           <div className='camp_grid_card_text'>
@@ -108,7 +108,7 @@ const Camp = () => {
           </div>
         </div>
 
-        <div className="camp_grid_card"></div>
+        <div className="camp_grid_card" id='hidden'></div>
       </div>
 
       <div className={`camp_contact ${contactVisible ? 'is_visible' : ''}`} ref={contactRef}>

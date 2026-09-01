@@ -1,33 +1,35 @@
 {
     "header": {
-        "title": "Pansion und Camp",
+        "title": "Pension und Campingplatz",
         "nav": {
-        "pansion": "Pansion",
-        "camp": "Camp",
-        "discoverTisno": "Discover Tisno",
-        "dryMarina": "Dry Marina"
+        "pansion": "Pension",
+        "camp": "Campingplatz",
+        "discoverTisno": "Entdecke Tisno"
         }
     },
     "footer": { 
-        "copyright": "Pansion und Camp Nikola. Alle Rechte vorbehalten.",
-        "phone": "Telefon"
+        "copyright": "Pansion und Campingplatz Nikola. Alle Rechte vorbehalten.",
+        "phone": "Telefon",
+        "pansion": "Pension",
+        "camp": "Campingplatz",
+        "discoverTisno": "Entdecke Tisno"
     },
     "landing_page": {
         "main_text1": "Komm als Gast.",
         "main_text2": "Geh als Freund.",
         "text": "Wir sind ein Familienbetrieb. Seit 60 Jahren begrüßen wir Gäste aus aller Welt in unserem Zuhause und in unseren Herzen. Kommen Sie und schließen Sie sich ihnen an und werden Sie Teil unserer Familie.",
         "pansion": {
-            "title": "Pansion Nikola",
+            "title": "Pension Nikola",
             "text": "Erleben Sie Komfort und Gastfreundschaft im Pansion Nikola, wo jeder Aufenthalt unvergesslich ist.",
             "button": "Mehr erfahren"
         },
         "camp": {
-            "title": "Camp Nikola",
-            "text": "Genießen Sie die Natur im Camp Nikola, einer perfekten Mischung aus Natur und Entspannung.",
+            "title": "Campingplatz Nikola",
+            "text": "Genießen Sie die Natur im Campingplatz Nikola, einer perfekten Mischung aus Natur und Entspannung.",
             "button": "Mehr erfahren"
         },
         "discover": {
-            "title": "Discover Tisno",
+            "title": "Entdecke Tisno",
             "text": "Entdecken Sie die ganze Schönheit von Tisno und Umgebung für unvergessliche Erlebnisse.",
             "button": "Mehr erfahren"
         },
@@ -68,7 +70,7 @@
         }
     },
     "camp_page": {
-        "text": "Genießen Sie die Natur im Camp Nikola, einer perfekten Mischung aus Natur und Entspannung.",
+        "text": "Genießen Sie die Natur im Campingplatz Nikola, einer perfekten Mischung aus Natur und Entspannung.",
         "see_camp": "Verfügbare Campingplätze ansehen",
         "address": "Adresse:",
         "phone": "Telefon:",
